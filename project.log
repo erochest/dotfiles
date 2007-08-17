@@ -1,0 +1,984 @@
+2007-04-11 14:19:01     INFO: Bootstrapping "project" in "/home/eric/src/baldrick/darcs/home/settings"
+2007-04-11 14:19:01     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs initialize
+2007-04-11 14:19:01     INFO: [Ok]
+2007-04-11 14:19:01     INFO: Extracting u'eric-20070110224610-ebc7bfa720c49022' out of 'file:///home/eric/src/baldrick/bzr/home/settings/' in '/home/eric/src/baldrick/darcs/home/settings'...
+2007-04-11 14:19:02     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet .
+2007-04-11 14:19:02     INFO: [Ok]
+2007-04-11 14:19:02     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:02     INFO: [Ok]
+2007-04-11 14:19:02     INFO: Bootstrap completed
+2007-04-11 14:19:02     INFO: Updating "project" in "/home/eric/src/baldrick/darcs/home/settings"
+2007-04-11 14:19:09     INFO: Cached information about 120 pending changesets
+2007-04-11 14:19:09     INFO: Applying pending upstream changesets
+2007-04-11 14:19:09     INFO: Changeset #1
+2007-04-11 14:19:09     INFO: Changeset "eric-20070110225256-183660e22c28d63d"
+2007-04-11 14:19:09     INFO: Log message: [project @ 2]
+Initial import
+2007-04-11 14:19:09     INFO: Updating to u'eric-20070110225256-183660e22c28d63d'
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet vimfiles/after vimfiles/after/syntax vimfiles/after/syntax/help.vim vimfiles/backup vimfiles/backup/html_local.vim vimfiles/backup/xml_local.vim vimfiles/bitmaps vimfiles/bitmaps/TVO vimfiles/bitmaps/TVO/1.bmp vimfiles/bitmaps/TVO/1.xpm vimfiles/bitmaps/TVO/2.bmp vimfiles/bitmaps/TVO/2.xpm vimfiles/bitmaps/TVO/3.bmp vimfiles/bitmaps/TVO/3.xpm vimfiles/bitmaps/TVO/4.bmp vimfiles/bitmaps/TVO/4.xpm vimfiles/bitmaps/TVO/5.bmp vimfiles/bitmaps/TVO/5.xpm vimfiles/bitmaps/TVO/6.bmp vimfiles/bitmaps/TVO/6.xpm vimfiles/bitmaps/TVO/7.bmp vimfiles/bitmaps/TVO/7.xpm vimfiles/bitmaps/TVO/all.bmp vimfiles/bitmaps/TVO/all.xpm vimfiles/bitmaps/TVO/bodytext.bmp vimfiles/bitmaps/TVO/bodytext.xpm vimfiles/bitmaps/TVO/down.bmp vimfiles/bitmaps/TVO/down.xpm vimfiles/bitmaps/TVO/firstline.bmp vimfiles/bitmaps/TVO/firstline.xpm vimfiles/bitmaps/TVO/left.bmp vimfiles/bitmaps/TVO/left.xpm vimfiles/bitmaps/TVO/minus.bmp vimfiles/bitmaps/TVO/minus.xpm vimfiles/bitmaps/TVO/plus.bmp vimfiles/bitmaps/TVO/plus.xpm vimfiles/bitmaps/TVO/right.bmp vimfiles/bitmaps/TVO/right.xpm vimfiles/bitmaps/TVO/up.bmp vimfiles/bitmaps/TVO/up.xpm vimfiles/colors vimfiles/colors/aqua.vim vimfiles/colors/biogoo.vim vimfiles/colors/bluegreen.vim vimfiles/colors/camo.vim vimfiles/colors/cloudy.vim vimfiles/colors/darkblue2.vim vimfiles/colors/zenburn.vim vimfiles/compiler vimfiles/compiler/nose.vim vimfiles/doc vimfiles/doc/NERD_tree.txt vimfiles/doc/bufexplorer.txt vimfiles/doc/crefvim.txt vimfiles/doc/crefvimdoc.txt vimfiles/doc/dbext.txt vimfiles/doc/matchit.txt vimfiles/doc/otl.txt vimfiles/doc/project.txt vimfiles/doc/taglist.txt vimfiles/doc/tags vimfiles/doc/xml-plugin.txt vimfiles/ftdetect vimfiles/ftdetect/gtd.vim vimfiles/ftdetect/kid.vim vimfiles/ftdetect/lse.vim vimfiles/ftdetect/otl.vim vimfiles/ftplugin vimfiles/ftplugin/aspx.vim vimfiles/ftplugin/c.vim vimfiles/ftplugin/cs.vim vimfiles/ftplugin/dtd.vim vimfiles/ftplugin/erlang_local.vim vimfiles/ftplugin/gtd.vim vimfiles/ftplugin/html.vim vimfiles/ftplugin/html_local.vim vimfiles/ftplugin/htmlcheetah_local.vim vimfiles/ftplugin/java.vim vimfiles/ftplugin/jess_local.vim vimfiles/ftplugin/kid.vim vimfiles/ftplugin/lisp_local.vim vimfiles/ftplugin/lse_local.vim vimfiles/ftplugin/otl.vim vimfiles/ftplugin/perl_local.vim vimfiles/ftplugin/plaintex_local.vim vimfiles/ftplugin/profile_builder.vim vimfiles/ftplugin/python.vim vimfiles/ftplugin/python_local.vim vimfiles/ftplugin/rest_local.vim vimfiles/ftplugin/rst_local.vim vimfiles/ftplugin/ruby.vim vimfiles/ftplugin/scheme.vim vimfiles/ftplugin/tex_local.vim vimfiles/ftplugin/xml.vim vimfiles/ftplugin/xml_local.vim vimfiles/ftplugin/xslt_local.vim vimfiles/ftplugin/yaml_local.vim vimfiles/indent vimfiles/keymap vimfiles/plugin vimfiles/plugin/EasyHtml.vim vimfiles/plugin/LargeFile.vim vimfiles/plugin/NERD_tree.vim vimfiles/plugin/bike.vim vimfiles/plugin/bufexplorer.vim vimfiles/plugin/calendar.vim vimfiles/plugin/crefvim.vim vimfiles/plugin/darcs.vim vimfiles/plugin/dbext.vim vimfiles/plugin/genutils.vim vimfiles/plugin/matchit.vim vimfiles/plugin/multvals.vim vimfiles/plugin/project.vim vimfiles/plugin/pydoc.vim vimfiles/plugin/svncommand.vim vimfiles/plugin/taglist.vim vimfiles/scripts.vim vimfiles/spell vimfiles/spell/en.ascii.spl vimfiles/spell/en.latin1.spl vimfiles/spell/en.utf-8.spl vimfiles/syntax vimfiles/syntax/CVSAnnotate.vim vimfiles/syntax/aspnet.vim vimfiles/syntax/django.vim vimfiles/syntax/gtd.vim vimfiles/syntax/htmldjango.vim vimfiles/syntax/kid.vim vimfiles/syntax/lse.vim vimfiles/syntax/moin.vim vimfiles/syntax/otl.vim vimfiles/syntax/profile_builder.vim vimfiles/syntax/ps1.vim vimfiles/syntax/rest.vim vimfiles/syntax/yaml.vim
+2007-04-11 14:19:10     INFO: [Ok]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/after
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/backup
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/bitmaps
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/colors
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/compiler
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/doc
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/ftdetect
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/ftplugin
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/indent
+2007-04-11 14:19:10  WARNING: [Status 2]
+2007-04-11 14:19:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/keymap
+2007-04-11 14:19:11  WARNING: [Status 2]
+2007-04-11 14:19:11     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/plugin
+2007-04-11 14:19:11  WARNING: [Status 2]
+2007-04-11 14:19:11     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/spell
+2007-04-11 14:19:11  WARNING: [Status 2]
+2007-04-11 14:19:11     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet vimfiles/syntax
+2007-04-11 14:19:11  WARNING: [Status 2]
+2007-04-11 14:19:11     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:13     INFO: [Ok]
+2007-04-11 14:19:13     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:13     INFO: Changeset #2
+2007-04-11 14:19:13     INFO: Changeset "eric-20070110225334-9215f90eedc1e02b"
+2007-04-11 14:19:13     INFO: Log message: [project @ 3]
+added _vimrc
+2007-04-11 14:19:13     INFO: Updating to u'eric-20070110225334-9215f90eedc1e02b'
+2007-04-11 14:19:13     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet _vimrc
+2007-04-11 14:19:13     INFO: [Ok]
+2007-04-11 14:19:13     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:13     INFO: [Ok]
+2007-04-11 14:19:13     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:13     INFO: Changeset #3
+2007-04-11 14:19:13     INFO: Changeset "eric-20070110225753-6f98ce540e569ef2"
+2007-04-11 14:19:13     INFO: Log message: [project @ 4]
+Initial import
+2007-04-11 14:19:13     INFO: Updating to u'eric-20070110225753-6f98ce540e569ef2'
+2007-04-11 14:19:14     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet bin/ERochest.TimeKeeper.Win32.exe bin/ERochest.TimeKeeper.dll bin/LiquidIcon.exe bin/RDNZL.dll bin/TwoMinutes.exe bin/avgdirsize.py bin/birdseye.py bin/cptypes.py bin/ctags.exe bin/darcs.exe bin/diff.exe bin/editmoin.py bin/egrep.exe bin/pageant.exe bin/pdffonts.exe bin/pdfimages.exe bin/pdfinfo.exe bin/pdftk.exe bin/pdftoppm.exe bin/pdftops.exe bin/pdftotext.exe bin/pdftotext.py bin/puttygen.exe bin/scp.exe bin/sftp.exe bin/sqlite3.def bin/sqlite3.dll bin/sqlite3.exe bin/ssh.exe bin/todo.bat bin/todo.sh bin/wget.exe
+2007-04-11 14:19:14     INFO: [Ok]
+2007-04-11 14:19:14     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:26     INFO: [Ok]
+2007-04-11 14:19:26     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:26     INFO: Changeset #4
+2007-04-11 14:19:26     INFO: Changeset "eric-20070110225913-cc124b85c8002b7b"
+2007-04-11 14:19:26     INFO: Log message: [project @ 5]
+Initial import
+2007-04-11 14:19:26     INFO: Updating to u'eric-20070110225913-cc124b85c8002b7b'
+2007-04-11 14:19:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet .bash_aliases .bash_profile .bashrc .emacs .sbclrc .todo pyreadlineconfig.ini
+2007-04-11 14:19:26     INFO: [Ok]
+2007-04-11 14:19:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:26     INFO: [Ok]
+2007-04-11 14:19:26     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:26     INFO: Changeset #5
+2007-04-11 14:19:26     INFO: Changeset "eric-20070110230859-ea49a5e241f0286e"
+2007-04-11 14:19:26     INFO: Log message: [project @ 6]
+changed location of gtd files
+2007-04-11 14:19:26     INFO: Updating to u'eric-20070110230859-ea49a5e241f0286e'
+2007-04-11 14:19:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:26     INFO: [Ok]
+2007-04-11 14:19:26     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:26     INFO: Changeset #6
+2007-04-11 14:19:26     INFO: Changeset "eric-20070110233635-eef560ffb25d33df"
+2007-04-11 14:19:26     INFO: Log message: [project @ 8]
+updated .emacs
+2007-04-11 14:19:26     INFO: Updating to u'eric-20070110233635-eef560ffb25d33df'
+2007-04-11 14:19:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:26     INFO: [Ok]
+2007-04-11 14:19:26     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:26     INFO: Changeset #7
+2007-04-11 14:19:26     INFO: Changeset "eric-20070112184611-c128e2d68899e597"
+2007-04-11 14:19:26     INFO: Log message: [project @ 25]
+added WindowsPowerShell directory
+2007-04-11 14:19:26     INFO: Updating to u'eric-20070112184611-c128e2d68899e597'
+2007-04-11 14:19:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet WindowsPowerShell WindowsPowerShell/Microsoft.PowerShell_profile.ps1 cgi-bin
+2007-04-11 14:19:27     INFO: [Ok]
+2007-04-11 14:19:27     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet WindowsPowerShell
+2007-04-11 14:19:27  WARNING: [Status 2]
+2007-04-11 14:19:27     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet cgi-bin
+2007-04-11 14:19:27  WARNING: [Status 2]
+2007-04-11 14:19:27     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:27     INFO: [Ok]
+2007-04-11 14:19:27     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:27     INFO: Changeset #8
+2007-04-11 14:19:27     INFO: Changeset "eric-20070115231438-fac713c21005c72d"
+2007-04-11 14:19:27     INFO: Log message: [project @ 34]
+_vimrc colorscheme change
+2007-04-11 14:19:27     INFO: Updating to u'eric-20070115231438-fac713c21005c72d'
+2007-04-11 14:19:27     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:27     INFO: [Ok]
+2007-04-11 14:19:27     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:27     INFO: Changeset #9
+2007-04-11 14:19:27     INFO: Changeset "eric-20070117022511-19b0efe6879ad2df"
+2007-04-11 14:19:27     INFO: Log message: [project @ 37]
+Moved gtd to be under home.
+2007-04-11 14:19:27     INFO: Updating to u'eric-20070117022511-19b0efe6879ad2df'
+2007-04-11 14:19:28     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet gtd "gtd/Getting Things Done - Allen, David -The Art of Stress-Free Productivity.pdf" gtd/diyplanner gtd/diyplanner/diyp3_core_cl_2up.pdf gtd/diyplanner/diyp3_creativity_cl_2up.pdf gtd/diyplanner/diyp3_gtdref_cl_2up.pdf gtd/diyplanner/diyp3_health_cl_2up.pdf gtd/diyplanner/diyp3_notes_cl_2up.pdf gtd/done.txt gtd/gtd-with-gmail.pdf gtd/report.txt gtd/todo.txt gtd/worklog.txt
+2007-04-11 14:19:28     INFO: [Ok]
+2007-04-11 14:19:28     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet gtd
+2007-04-11 14:19:28  WARNING: [Status 2]
+2007-04-11 14:19:28     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:32     INFO: [Ok]
+2007-04-11 14:19:32     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:32     INFO: Changeset #10
+2007-04-11 14:19:32     INFO: Changeset "eric-20070117022601-c037aa200bca9041"
+2007-04-11 14:19:32     INFO: Log message: [project @ 38]
+changed location of gtd files
+2007-04-11 14:19:32     INFO: Updating to u'eric-20070117022601-c037aa200bca9041'
+2007-04-11 14:19:32     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:32     INFO: [Ok]
+2007-04-11 14:19:32     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:32     INFO: Changeset #11
+2007-04-11 14:19:32     INFO: Changeset "eric-20070117022615-ee58b55a1a86a73b"
+2007-04-11 14:19:32     INFO: Log message: [project @ 39]
+vimfiles updated xml plugin documentation
+2007-04-11 14:19:32     INFO: Updating to u'eric-20070117022615-ee58b55a1a86a73b'
+2007-04-11 14:19:32     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:32     INFO: [Ok]
+2007-04-11 14:19:32     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:32     INFO: Changeset #12
+2007-04-11 14:19:32     INFO: Changeset "eric-20070117025732-7635d1a745ee6c8b"
+2007-04-11 14:19:32     INFO: Log message: [project @ 40]
+Moved projects to be under home/gtd.
+2007-04-11 14:19:32     INFO: Updating to u'eric-20070117025732-7635d1a745ee6c8b'
+2007-04-11 14:19:32     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet gtd/projects
+2007-04-11 14:19:33     INFO: [Ok]
+2007-04-11 14:19:33     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet gtd/projects
+2007-04-11 14:19:33  WARNING: [Status 2]
+2007-04-11 14:19:33     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:33     INFO: [Ok]
+2007-04-11 14:19:33     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:33     INFO: Changeset #13
+2007-04-11 14:19:33     INFO: Changeset "eric-20070117025821-14b988596a0d70c7"
+2007-04-11 14:19:33     INFO: Log message: [project @ 41]
+Moved someday-maybe to home/gtd.
+2007-04-11 14:19:33     INFO: Updating to u'eric-20070117025821-14b988596a0d70c7'
+2007-04-11 14:19:33     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet gtd/projects/someday-maybe
+2007-04-11 14:19:33     INFO: [Ok]
+2007-04-11 14:19:33     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --recursive --quiet gtd/projects/someday-maybe
+2007-04-11 14:19:33  WARNING: [Status 2]
+2007-04-11 14:19:33     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:33     INFO: [Ok]
+2007-04-11 14:19:33     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:33     INFO: Changeset #14
+2007-04-11 14:19:33     INFO: Changeset "eric-20070117030024-1172cb0ddb8a33a9"
+2007-04-11 14:19:33     INFO: Log message: [project @ 42]
+todo 16 jan 2007
+2007-04-11 14:19:33     INFO: Updating to u'eric-20070117030024-1172cb0ddb8a33a9'
+2007-04-11 14:19:33     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:33     INFO: [Ok]
+2007-04-11 14:19:33     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:33     INFO: Changeset #15
+2007-04-11 14:19:33     INFO: Changeset "eric-20070117224156-b74665877019c6ac"
+2007-04-11 14:19:33     INFO: Log message: [project @ 43]
+updated .emacs to point to the correct new lisp-site location
+2007-04-11 14:19:33     INFO: Updating to u'eric-20070117224156-b74665877019c6ac'
+2007-04-11 14:19:33     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:34     INFO: [Ok]
+2007-04-11 14:19:34     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:34     INFO: Changeset #16
+2007-04-11 14:19:34     INFO: Changeset "eric-20070118034105-b95a1896b736cec0"
+2007-04-11 14:19:34     INFO: Log message: [project @ 44]
+added janitor script
+2007-04-11 14:19:34     INFO: Updating to u'eric-20070118034105-b95a1896b736cec0'
+2007-04-11 14:19:34     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet bin/janitor.py
+2007-04-11 14:19:34     INFO: [Ok]
+2007-04-11 14:19:34     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:34     INFO: [Ok]
+2007-04-11 14:19:34     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:34     INFO: Changeset #17
+2007-04-11 14:19:34     INFO: Changeset "eric-20070118034130-a39fcb6eff1bc602"
+2007-04-11 14:19:34     INFO: Log message: [project @ 45]
+vimfiles added notes sections to lse syntax script
+2007-04-11 14:19:34     INFO: Updating to u'eric-20070118034130-a39fcb6eff1bc602'
+2007-04-11 14:19:34     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:34     INFO: [Ok]
+2007-04-11 14:19:34     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:34     INFO: Changeset #18
+2007-04-11 14:19:34     INFO: Changeset "eric-20070118034155-696fa4980da71ec8"
+2007-04-11 14:19:34     INFO: Log message: [project @ 46]
+vimfiles changed foldcolumn to 1
+2007-04-11 14:19:34     INFO: Updating to u'eric-20070118034155-696fa4980da71ec8'
+2007-04-11 14:19:34     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:34     INFO: [Ok]
+2007-04-11 14:19:34     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:34     INFO: Changeset #19
+2007-04-11 14:19:34     INFO: Changeset "eric-20070118035057-04bbced811bf79bf"
+2007-04-11 14:19:34     INFO: Log message: [project @ 47]
+added bak script
+2007-04-11 14:19:34     INFO: Updating to u'eric-20070118035057-04bbced811bf79bf'
+2007-04-11 14:19:35     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet bin/bak.py
+2007-04-11 14:19:35     INFO: [Ok]
+2007-04-11 14:19:35     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:35     INFO: [Ok]
+2007-04-11 14:19:35     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:35     INFO: Changeset #20
+2007-04-11 14:19:35     INFO: Changeset "eric-20070118035140-e4114d6b61861104"
+2007-04-11 14:19:35     INFO: Log message: [project @ 48]
+todo 17 jan 2007
+2007-04-11 14:19:35     INFO: Updating to u'eric-20070118035140-e4114d6b61861104'
+2007-04-11 14:19:35     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:35     INFO: [Ok]
+2007-04-11 14:19:35     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:35     INFO: Changeset #21
+2007-04-11 14:19:35     INFO: Changeset "eric-20070118035610-2e9824ee3027eeb7"
+2007-04-11 14:19:35     INFO: Log message: [project @ 49]
+fixed bugs in janitor script
+2007-04-11 14:19:35     INFO: Updating to u'eric-20070118035610-2e9824ee3027eeb7'
+2007-04-11 14:19:35     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:35     INFO: [Ok]
+2007-04-11 14:19:35     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:35     INFO: Changeset #22
+2007-04-11 14:19:35     INFO: Changeset "eric-20070118225223-6bc778f40971860c"
+2007-04-11 14:19:35     INFO: Log message: [project @ 50]
+todo worklog 18 jan 2007
+2007-04-11 14:19:35     INFO: Updating to u'eric-20070118225223-6bc778f40971860c'
+2007-04-11 14:19:35     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:35     INFO: [Ok]
+2007-04-11 14:19:35     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:35     INFO: Changeset #23
+2007-04-11 14:19:35     INFO: Changeset "eric-20070119131934-3fd0dd8572b0fe25"
+2007-04-11 14:19:35     INFO: Log message: [project @ 52]
+vim added f5 key to toggle file tree
+2007-04-11 14:19:35     INFO: Updating to u'eric-20070119131934-3fd0dd8572b0fe25'
+2007-04-11 14:19:35     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:36     INFO: [Ok]
+2007-04-11 14:19:36     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:36     INFO: Changeset #24
+2007-04-11 14:19:36     INFO: Changeset "eric-20070119201856-ab19bc1ea137902a"
+2007-04-11 14:19:36     INFO: Log message: [project @ 53]
+weekly review
+2007-04-11 14:19:36     INFO: Updating to u'eric-20070119201856-ab19bc1ea137902a'
+2007-04-11 14:19:36     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:36     INFO: [Ok]
+2007-04-11 14:19:36     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:36     INFO: Changeset #25
+2007-04-11 14:19:36     INFO: Changeset "eric-20070119232942-0b721ed132ef24fa"
+2007-04-11 14:19:36     INFO: Log message: [project @ 54]
+todo worklog 19 jan 2007
+2007-04-11 14:19:36     INFO: Updating to u'eric-20070119232942-0b721ed132ef24fa'
+2007-04-11 14:19:36     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:36     INFO: [Ok]
+2007-04-11 14:19:36     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:36     INFO: Changeset #26
+2007-04-11 14:19:36     INFO: Changeset "eric-20070121153654-12ef869a0bc40c22"
+2007-04-11 14:19:36     INFO: Log message: [project @ 55]
+todo 21 jan 2007
+2007-04-11 14:19:36     INFO: Updating to u'eric-20070121153654-12ef869a0bc40c22'
+2007-04-11 14:19:36     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:36     INFO: [Ok]
+2007-04-11 14:19:36     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:36     INFO: Changeset #27
+2007-04-11 14:19:36     INFO: Changeset "eric-20070123235712-10ed3fb9b606b789"
+2007-04-11 14:19:36     INFO: Log message: [project @ 56]
+todo worklog 23 jan 2007
+2007-04-11 14:19:36     INFO: Updating to u'eric-20070123235712-10ed3fb9b606b789'
+2007-04-11 14:19:36     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:36     INFO: [Ok]
+2007-04-11 14:19:36     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:36     INFO: Changeset #28
+2007-04-11 14:19:36     INFO: Changeset "eric-20070124170032-e2498f77d2200748"
+2007-04-11 14:19:36     INFO: Log message: [project @ 59]
+added cygwin gvim script
+2007-04-11 14:19:36     INFO: Updating to u'eric-20070124170032-e2498f77d2200748'
+2007-04-11 14:19:37     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet bin/gvim
+2007-04-11 14:19:37     INFO: [Ok]
+2007-04-11 14:19:37     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:37     INFO: [Ok]
+2007-04-11 14:19:37     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:37     INFO: Changeset #29
+2007-04-11 14:19:37     INFO: Changeset "eric-20070124230638-0b64f8d5935ca5b6"
+2007-04-11 14:19:37     INFO: Log message: [project @ 61]
+todo worklog 24 jan 2007
+2007-04-11 14:19:37     INFO: Updating to u'eric-20070124230638-0b64f8d5935ca5b6'
+2007-04-11 14:19:37     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:37     INFO: [Ok]
+2007-04-11 14:19:37     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:37     INFO: Changeset #30
+2007-04-11 14:19:37     INFO: Changeset "eric-20070125031707-914f57b9eac33aaf"
+2007-04-11 14:19:37     INFO: Log message: [project @ 62]
+todo 24 jan 2007
+2007-04-11 14:19:37     INFO: Updating to u'eric-20070125031707-914f57b9eac33aaf'
+2007-04-11 14:19:37     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:38     INFO: [Ok]
+2007-04-11 14:19:38     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:38     INFO: Changeset #31
+2007-04-11 14:19:38     INFO: Changeset "eric-20070125132947-acca22d19db4e866"
+2007-04-11 14:19:38     INFO: Log message: [project @ 63]
+early 25 jan 2007
+2007-04-11 14:19:38     INFO: Updating to u'eric-20070125132947-acca22d19db4e866'
+2007-04-11 14:19:38     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:38     INFO: [Ok]
+2007-04-11 14:19:38     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:38     INFO: Changeset #32
+2007-04-11 14:19:38     INFO: Changeset "eric-20070125232348-72c09e29236eccce"
+2007-04-11 14:19:38     INFO: Log message: [project @ 64]
+todo worklog 25 jan 2007
+2007-04-11 14:19:38     INFO: Updating to u'eric-20070125232348-72c09e29236eccce'
+2007-04-11 14:19:39     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:39     INFO: [Ok]
+2007-04-11 14:19:39     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:39     INFO: Changeset #33
+2007-04-11 14:19:39     INFO: Changeset "eric-20070126150711-9ef50c591d02a3af"
+2007-04-11 14:19:39     INFO: Log message: [project @ 65]
+Added svnprops.py to set svn properties on committed files.
+2007-04-11 14:19:39     INFO: Updating to u'eric-20070126150711-9ef50c591d02a3af'
+2007-04-11 14:19:39     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet bin/svnprops.py
+2007-04-11 14:19:39     INFO: [Ok]
+2007-04-11 14:19:39     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:39     INFO: [Ok]
+2007-04-11 14:19:39     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:39     INFO: Changeset #34
+2007-04-11 14:19:39     INFO: Changeset "eric-20070126150848-4e7f51badc66828a"
+2007-04-11 14:19:39     INFO: Log message: [project @ 66]
+bin set revision and id keyword properties on python scripts
+2007-04-11 14:19:39     INFO: Updating to u'eric-20070126150848-4e7f51badc66828a'
+2007-04-11 14:19:39     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:39     INFO: [Ok]
+2007-04-11 14:19:39     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:39     INFO: Changeset #35
+2007-04-11 14:19:39     INFO: Changeset "eric-20070126151028-d33091bb0f419b26"
+2007-04-11 14:19:39     INFO: Log message: [project @ 67]
+bin added revision tags to python scripts
+2007-04-11 14:19:39     INFO: Updating to u'eric-20070126151028-d33091bb0f419b26'
+2007-04-11 14:19:39     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:39     INFO: [Ok]
+2007-04-11 14:19:39     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:39     INFO: Changeset #36
+2007-04-11 14:19:39     INFO: Changeset "eric-20070126213335-b5fb8eb9d18dd9b1"
+2007-04-11 14:19:39     INFO: Log message: [project @ 68]
+weekly review 26 jan 2007
+2007-04-11 14:19:39     INFO: Updating to u'eric-20070126213335-b5fb8eb9d18dd9b1'
+2007-04-11 14:19:40     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:40     INFO: [Ok]
+2007-04-11 14:19:40     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:40     INFO: Changeset #37
+2007-04-11 14:19:40     INFO: Changeset "eric-20070126221012-c8966f6c5f1cf5ef"
+2007-04-11 14:19:40     INFO: Log message: [project @ 69]
+todo 26 jan 2007
+2007-04-11 14:19:40     INFO: Updating to u'eric-20070126221012-c8966f6c5f1cf5ef'
+2007-04-11 14:19:40     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:40     INFO: [Ok]
+2007-04-11 14:19:40     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:40     INFO: Changeset #38
+2007-04-11 14:19:40     INFO: Changeset "eric-20070129031729-70e3b923218b903a"
+2007-04-11 14:19:40     INFO: Log message: [project @ 70]
+updated sbcl location for inferior lisp
+2007-04-11 14:19:40     INFO: Updating to u'eric-20070129031729-70e3b923218b903a'
+2007-04-11 14:19:40     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:40     INFO: [Ok]
+2007-04-11 14:19:40     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:40     INFO: Changeset #39
+2007-04-11 14:19:40     INFO: Changeset "eric-20070129031748-88437f8448edd4ba"
+2007-04-11 14:19:40     INFO: Log message: [project @ 71]
+todo 28 jan 2007
+2007-04-11 14:19:40     INFO: Updating to u'eric-20070129031748-88437f8448edd4ba'
+2007-04-11 14:19:40     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:40     INFO: [Ok]
+2007-04-11 14:19:40     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:40     INFO: Changeset #40
+2007-04-11 14:19:40     INFO: Changeset "eric-20070130025528-5482a8641469e01a"
+2007-04-11 14:19:40     INFO: Log message: [project @ 72]
+todo 29 jan 2007
+2007-04-11 14:19:40     INFO: Updating to u'eric-20070130025528-5482a8641469e01a'
+2007-04-11 14:19:40     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:40     INFO: [Ok]
+2007-04-11 14:19:40     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:40     INFO: Changeset #41
+2007-04-11 14:19:40     INFO: Changeset "eric-20070130231922-0e4add6ddbefc658"
+2007-04-11 14:19:40     INFO: Log message: [project @ 77]
+todo worklog 30 jan 2007
+2007-04-11 14:19:40     INFO: Updating to u'eric-20070130231922-0e4add6ddbefc658'
+2007-04-11 14:19:41     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:41     INFO: [Ok]
+2007-04-11 14:19:41     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:41     INFO: Changeset #42
+2007-04-11 14:19:41     INFO: Changeset "eric-20070131154527-b9e60b302f5a3543"
+2007-04-11 14:19:41     INFO: Log message: [project @ 78]
+added bazaar vim syntax file
+2007-04-11 14:19:41     INFO: Updating to u'eric-20070131154527-b9e60b302f5a3543'
+2007-04-11 14:19:41     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet vimfiles/syntax/bzr.vim
+2007-04-11 14:19:41     INFO: [Ok]
+2007-04-11 14:19:41     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:41     INFO: [Ok]
+2007-04-11 14:19:41     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:41     INFO: Changeset #43
+2007-04-11 14:19:41     INFO: Changeset "eric-20070131213127-cfd7918c19719c29"
+2007-04-11 14:19:41     INFO: Log message: [project @ 79]
+todo mid 31 jan 2007
+2007-04-11 14:19:41     INFO: Updating to u'eric-20070131213127-cfd7918c19719c29'
+2007-04-11 14:19:41     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:41     INFO: [Ok]
+2007-04-11 14:19:41     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:41     INFO: Changeset #44
+2007-04-11 14:19:41     INFO: Changeset "eric-20070131225022-6e87f23149b60934"
+2007-04-11 14:19:41     INFO: Log message: [project @ 80]
+worklog 31 jan 2007
+2007-04-11 14:19:41     INFO: Updating to u'eric-20070131225022-6e87f23149b60934'
+2007-04-11 14:19:41     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:41     INFO: [Ok]
+2007-04-11 14:19:41     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:41     INFO: Changeset #45
+2007-04-11 14:19:41     INFO: Changeset "eric-20070201220453-a68ada7c8eca60ea"
+2007-04-11 14:19:41     INFO: Log message: [project @ 81]
+todo worklog 1 feb 2007
+2007-04-11 14:19:41     INFO: Updating to u'eric-20070201220453-a68ada7c8eca60ea'
+2007-04-11 14:19:42     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:42     INFO: [Ok]
+2007-04-11 14:19:42     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:42     INFO: Changeset #46
+2007-04-11 14:19:42     INFO: Changeset "eric-20070202191545-e8b4ab2aadda687f"
+2007-04-11 14:19:42     INFO: Log message: [project @ 82]
+weekly review 2 feb 2007
+2007-04-11 14:19:42     INFO: Updating to u'eric-20070202191545-e8b4ab2aadda687f'
+2007-04-11 14:19:42     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:42     INFO: [Ok]
+2007-04-11 14:19:42     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:42     INFO: Changeset #47
+2007-04-11 14:19:42     INFO: Changeset "eric-20070202223101-5fa2ea0a9eeef33a"
+2007-04-11 14:19:42     INFO: Log message: [project @ 83]
+added minibufexpl.vim
+2007-04-11 14:19:42     INFO: Updating to u'eric-20070202223101-5fa2ea0a9eeef33a'
+2007-04-11 14:19:42     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet vimfiles/plugin/minibufexpl.vim
+2007-04-11 14:19:42     INFO: [Ok]
+2007-04-11 14:19:42     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:42     INFO: [Ok]
+2007-04-11 14:19:42     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:42     INFO: Changeset #48
+2007-04-11 14:19:42     INFO: Changeset "eric-20070202223228-a948ac3c5ac28196"
+2007-04-11 14:19:42     INFO: Log message: [project @ 84]
+worklog todo 2 feb 2007
+2007-04-11 14:19:42     INFO: Updating to u'eric-20070202223228-a948ac3c5ac28196'
+2007-04-11 14:19:42     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:42     INFO: [Ok]
+2007-04-11 14:19:42     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:42     INFO: Changeset #49
+2007-04-11 14:19:42     INFO: Changeset "eric-20070203013404-4b1594ef46bc6c7b"
+2007-04-11 14:19:42     INFO: Log message: [project @ 85]
+todo 2 feb 2007
+2007-04-11 14:19:42     INFO: Updating to u'eric-20070203013404-4b1594ef46bc6c7b'
+2007-04-11 14:19:43     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:43     INFO: [Ok]
+2007-04-11 14:19:43     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:43     INFO: Changeset #50
+2007-04-11 14:19:43     INFO: Changeset "eric-20070203235611-ca3312e9c22ff266"
+2007-04-11 14:19:43     INFO: Log message: [project @ 86]
+todo 3 feb 2007
+2007-04-11 14:19:43     INFO: Updating to u'eric-20070203235611-ca3312e9c22ff266'
+2007-04-11 14:19:43     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:43     INFO: [Ok]
+2007-04-11 14:19:43     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:43     INFO: Changeset #51
+2007-04-11 14:19:43     INFO: Changeset "eric-20070205031547-c17da81ad5e148bd"
+2007-04-11 14:19:43     INFO: Log message: [project @ 95]
+updated .sbclrc
+2007-04-11 14:19:43     INFO: Updating to u'eric-20070205031547-c17da81ad5e148bd'
+2007-04-11 14:19:43     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:43     INFO: [Ok]
+2007-04-11 14:19:43     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:43     INFO: Changeset #52
+2007-04-11 14:19:43     INFO: Changeset "eric-20070205033510-d0ee34c24aa422e6"
+2007-04-11 14:19:43     INFO: Log message: [project @ 96]
+todo 4 feb 2007
+2007-04-11 14:19:43     INFO: Updating to u'eric-20070205033510-d0ee34c24aa422e6'
+2007-04-11 14:19:43     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:43     INFO: [Ok]
+2007-04-11 14:19:43     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:43     INFO: Changeset #53
+2007-04-11 14:19:43     INFO: Changeset "eric-20070205222115-aa0f1752cd8c8144"
+2007-04-11 14:19:43     INFO: Log message: [project @ 97]
+todo worklog 5 feb 2007
+2007-04-11 14:19:43     INFO: Updating to u'eric-20070205222115-aa0f1752cd8c8144'
+2007-04-11 14:19:44     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:44     INFO: [Ok]
+2007-04-11 14:19:44     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:44     INFO: Changeset #54
+2007-04-11 14:19:44     INFO: Changeset "eric-20070206221302-b5d86811cc832de9"
+2007-04-11 14:19:44     INFO: Log message: [project @ 98]
+changed bak.py script to handle single files
+2007-04-11 14:19:44     INFO: Updating to u'eric-20070206221302-b5d86811cc832de9'
+2007-04-11 14:19:44     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:44     INFO: [Ok]
+2007-04-11 14:19:44     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:44     INFO: Changeset #55
+2007-04-11 14:19:44     INFO: Changeset "eric-20070206221513-6fdb891fa0689d13"
+2007-04-11 14:19:44     INFO: Log message: [project @ 99]
+deleted mini buf explorer plugin
+2007-04-11 14:19:44     INFO: Updating to u'eric-20070206221513-6fdb891fa0689d13'
+2007-04-11 14:19:44     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:44     INFO: [Ok]
+2007-04-11 14:19:44     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:44     INFO: Changeset #56
+2007-04-11 14:19:44     INFO: Changeset "eric-20070206221537-927783701d92a27e"
+2007-04-11 14:19:44     INFO: Log message: [project @ 100]
+todo worklog 6 feb 2007
+2007-04-11 14:19:44     INFO: Updating to u'eric-20070206221537-927783701d92a27e'
+2007-04-11 14:19:44     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:44     INFO: [Ok]
+2007-04-11 14:19:44     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:44     INFO: Changeset #57
+2007-04-11 14:19:44     INFO: Changeset "eric-20070207142851-14daa25e9d61704a"
+2007-04-11 14:19:44     INFO: Log message: [project @ 101]
+todo worklog early 7 feb 2007
+2007-04-11 14:19:44     INFO: Updating to u'eric-20070207142851-14daa25e9d61704a'
+2007-04-11 14:19:44     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:45     INFO: [Ok]
+2007-04-11 14:19:45     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:45     INFO: Changeset #58
+2007-04-11 14:19:45     INFO: Changeset "root-20070207225608-d6cadb272e697354"
+2007-04-11 14:19:45     INFO: Log message: [project @ 102]
+todo 7 feb 2007
+2007-04-11 14:19:45     INFO: Updating to u'root-20070207225608-d6cadb272e697354'
+2007-04-11 14:19:45     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:19:45     INFO: [Ok]
+2007-04-11 14:19:45     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:19:45     INFO: Changeset #59
+2007-04-11 14:19:45     INFO: Changeset "erochest@gmail.com-20070209002921-f0b4d869bc3559e8"
+2007-04-11 14:19:45     INFO: Log message: removed bin gtd and vimfiles
+2007-04-11 14:19:45     INFO: Updating to u'erochest@gmail.com-20070209002921-f0b4d869bc3559e8'
+2007-04-11 14:19:45     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:05     INFO: [Ok]
+2007-04-11 14:20:05     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:05     INFO: Changeset #60
+2007-04-11 14:20:05     INFO: Changeset "erochest@gmail.com-20070209200854-gkas7ngmd0k8adqc"
+2007-04-11 14:20:05     INFO: Log message: removed superfluous tmp and cgi-bin directories
+2007-04-11 14:20:05     INFO: Updating to u'erochest@gmail.com-20070209200854-gkas7ngmd0k8adqc'
+2007-04-11 14:20:05     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:05     INFO: [Ok]
+2007-04-11 14:20:05     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:05     INFO: Changeset #61
+2007-04-11 14:20:06     INFO: Changeset "erochest@gmail.com-20070209205726-8ekh9lpq7r2aragf"
+2007-04-11 14:20:06     INFO: Log message: vimrc added flex compiler autodetection
+2007-04-11 14:20:06     INFO: Updating to u'erochest@gmail.com-20070209205726-8ekh9lpq7r2aragf'
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:06     INFO: Changeset #62
+2007-04-11 14:20:06     INFO: Changeset "erochest@gmail.com-20070209210556-qt36tyx4x79kplr4"
+2007-04-11 14:20:06     INFO: Log message: vimrc added actionscript syntax file
+2007-04-11 14:20:06     INFO: Updating to u'erochest@gmail.com-20070209210556-qt36tyx4x79kplr4'
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:06     INFO: Changeset #63
+2007-04-11 14:20:06     INFO: Changeset "erochest@gmail.com-20070219191753-dwlo0wjbllx9bua7"
+2007-04-11 14:20:06     INFO: Log message: added format-xml cmdlet
+2007-04-11 14:20:06     INFO: Updating to u'erochest@gmail.com-20070219191753-dwlo0wjbllx9bua7'
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet .fetchmailrc WindowsPowerShell/FormatXml.ps1
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:06     INFO: Changeset #64
+2007-04-11 14:20:06     INFO: Changeset "erochest@gmail.com-20070225202748-inhjtki9xd8ymost"
+2007-04-11 14:20:06     INFO: Log message: WindowsPowerShell added profile from PSCX
+2007-04-11 14:20:06     INFO: Updating to u'erochest@gmail.com-20070225202748-inhjtki9xd8ymost'
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet WindowsPowerShell/Profile.ps1
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:06     INFO: Changeset #65
+2007-04-11 14:20:06     INFO: Changeset "erochest@gmail.com-20070226165045-qcfwl36j4apqtrfp"
+2007-04-11 14:20:06     INFO: Log message: changed prefered editor for powershell
+2007-04-11 14:20:06     INFO: Updating to u'erochest@gmail.com-20070226165045-qcfwl36j4apqtrfp'
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:06     INFO: Changeset #66
+2007-04-11 14:20:06     INFO: Changeset "erochest@gmail.com-20070228180511-gmku61fws6ro7rhk"
+2007-04-11 14:20:06     INFO: Log message: added bookmarks
+2007-04-11 14:20:06     INFO: Updating to u'erochest@gmail.com-20070228180511-gmku61fws6ro7rhk'
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet bookmarks.html firefox.py pull_bookmarks.py push_bookmarks.py startup.py
+2007-04-11 14:20:06     INFO: [Ok]
+2007-04-11 14:20:06     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:07     INFO: [Ok]
+2007-04-11 14:20:07     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:07     INFO: Changeset #67
+2007-04-11 14:20:07     INFO: Changeset "erochest@gmail.com-20070228221901-k41783ldjs19wze8"
+2007-04-11 14:20:07     INFO: Log message: bookmarks 28 feb 2007
+2007-04-11 14:20:07     INFO: Updating to u'erochest@gmail.com-20070228221901-k41783ldjs19wze8'
+2007-04-11 14:20:07     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:07     INFO: [Ok]
+2007-04-11 14:20:07     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:07     INFO: Changeset #68
+2007-04-11 14:20:07     INFO: Changeset "erochester@rochester-lt-20070301031535-kgndv92c563egdaf"
+2007-04-11 14:20:07     INFO: Log message: bookmarks 28 feb 2007
+2007-04-11 14:20:07     INFO: Updating to u'erochester@rochester-lt-20070301031535-kgndv92c563egdaf'
+2007-04-11 14:20:07     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:07     INFO: [Ok]
+2007-04-11 14:20:07     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:07     INFO: Changeset #69
+2007-04-11 14:20:07     INFO: Changeset "erochest@gmail.com-20070302002111-6ssrlo69ubds8g0t"
+2007-04-11 14:20:07     INFO: Log message: bookmarks 1 mar 2007
+2007-04-11 14:20:07     INFO: Updating to u'erochest@gmail.com-20070302002111-6ssrlo69ubds8g0t'
+2007-04-11 14:20:08     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:08     INFO: [Ok]
+2007-04-11 14:20:08     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:08     INFO: Changeset #70
+2007-04-11 14:20:08     INFO: Changeset "erochester@rochester-lt-20070302025629-gzvin7kjebso6spx"
+2007-04-11 14:20:08     INFO: Log message: bookmarks 1 mar 2007
+2007-04-11 14:20:08     INFO: Updating to u'erochester@rochester-lt-20070302025629-gzvin7kjebso6spx'
+2007-04-11 14:20:08     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:08     INFO: [Ok]
+2007-04-11 14:20:08     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:08     INFO: Changeset #71
+2007-04-11 14:20:08     INFO: Changeset "erochest@gmail.com-20070302223233-ptic9b1aypls9plp"
+2007-04-11 14:20:08     INFO: Log message: vimrc added C-m shortcut
+2007-04-11 14:20:08     INFO: Updating to u'erochest@gmail.com-20070302223233-ptic9b1aypls9plp'
+2007-04-11 14:20:08     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:08     INFO: [Ok]
+2007-04-11 14:20:08     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:08     INFO: Changeset #72
+2007-04-11 14:20:08     INFO: Changeset "erochest@gmail.com-20070302223242-3k5ry84j5dwr3dt1"
+2007-04-11 14:20:08     INFO: Log message: bookmarks 2 mar 2007
+2007-04-11 14:20:08     INFO: Updating to u'erochest@gmail.com-20070302223242-3k5ry84j5dwr3dt1'
+2007-04-11 14:20:08     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:08     INFO: [Ok]
+2007-04-11 14:20:08     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:08     INFO: Changeset #73
+2007-04-11 14:20:08     INFO: Changeset "erochester@rochester-lt-20070305022337-eshz6gpyekumgp4m"
+2007-04-11 14:20:08     INFO: Log message: bookmarks 4 mar 2007
+2007-04-11 14:20:08     INFO: Updating to u'erochester@rochester-lt-20070305022337-eshz6gpyekumgp4m'
+2007-04-11 14:20:09     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:09     INFO: [Ok]
+2007-04-11 14:20:09     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:09     INFO: Changeset #74
+2007-04-11 14:20:09     INFO: Changeset "erochest@gmail.com-20070305220136-ftlmlswqhyvosn69"
+2007-04-11 14:20:09     INFO: Log message: bookmarks 5 mar 2007
+2007-04-11 14:20:09     INFO: Updating to u'erochest@gmail.com-20070305220136-ftlmlswqhyvosn69'
+2007-04-11 14:20:09     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:09     INFO: [Ok]
+2007-04-11 14:20:09     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:09     INFO: Changeset #75
+2007-04-11 14:20:09     INFO: Changeset "erochester@rochester-lt-20070306021102-dgtxbcjjxunvglap"
+2007-04-11 14:20:09     INFO: Log message: bookmarks 5 mar 2007
+2007-04-11 14:20:09     INFO: Updating to u'erochester@rochester-lt-20070306021102-dgtxbcjjxunvglap'
+2007-04-11 14:20:09     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:09     INFO: [Ok]
+2007-04-11 14:20:09     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:09     INFO: Changeset #76
+2007-04-11 14:20:09     INFO: Changeset "erochest@gmail.com-20070306223642-haw81winltc67nsq"
+2007-04-11 14:20:09     INFO: Log message: bookmarks 6 mar 2007
+2007-04-11 14:20:09     INFO: Updating to u'erochest@gmail.com-20070306223642-haw81winltc67nsq'
+2007-04-11 14:20:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:10     INFO: [Ok]
+2007-04-11 14:20:10     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:10     INFO: Changeset #77
+2007-04-11 14:20:10     INFO: Changeset "erochester@rochester-lt-20070307022058-5d9efir9qnmgse19"
+2007-04-11 14:20:10     INFO: Log message: added stikkit config file
+2007-04-11 14:20:10     INFO: Updating to u'erochester@rochester-lt-20070307022058-5d9efir9qnmgse19'
+2007-04-11 14:20:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs add --case-ok --not-recursive --quiet .stikkit
+2007-04-11 14:20:10     INFO: [Ok]
+2007-04-11 14:20:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:10     INFO: [Ok]
+2007-04-11 14:20:10     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:10     INFO: Changeset #78
+2007-04-11 14:20:10     INFO: Changeset "erochest@gmail.com-20070307224814-oe2z857oviw64t06"
+2007-04-11 14:20:10     INFO: Log message: bookmarks 7 mar 2007
+2007-04-11 14:20:10     INFO: Updating to u'erochest@gmail.com-20070307224814-oe2z857oviw64t06'
+2007-04-11 14:20:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:10     INFO: [Ok]
+2007-04-11 14:20:10     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:10     INFO: Changeset #79
+2007-04-11 14:20:10     INFO: Changeset "erochester@rochester-lt-20070308121312-6x35tjxxwhvib96m"
+2007-04-11 14:20:10     INFO: Log message: bookmarks 7 mar 2007
+2007-04-11 14:20:10     INFO: Updating to u'erochester@rochester-lt-20070308121312-6x35tjxxwhvib96m'
+2007-04-11 14:20:10     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:11     INFO: [Ok]
+2007-04-11 14:20:11     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:11     INFO: Changeset #80
+2007-04-11 14:20:11     INFO: Changeset "erochest@gmail.com-20070308221916-wqts0w66drezq42n"
+2007-04-11 14:20:11     INFO: Log message: bookmarks 8 mar 2007
+2007-04-11 14:20:11     INFO: Updating to u'erochest@gmail.com-20070308221916-wqts0w66drezq42n'
+2007-04-11 14:20:11     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:11     INFO: [Ok]
+2007-04-11 14:20:11     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:11     INFO: Changeset #81
+2007-04-11 14:20:11     INFO: Changeset "erochest@gmail.com-20070309004642-7znypl54cvfan0r4"
+2007-04-11 14:20:11     INFO: Log message: bookmarks 8 mar 2007
+2007-04-11 14:20:11     INFO: Updating to u'erochest@gmail.com-20070309004642-7znypl54cvfan0r4'
+2007-04-11 14:20:11     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:11     INFO: [Ok]
+2007-04-11 14:20:11     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:11     INFO: Changeset #82
+2007-04-11 14:20:11     INFO: Changeset "erochester@rochester-lt-20070309024026-znt6nnk1m03kvpb0"
+2007-04-11 14:20:11     INFO: Log message: bookmarks 8 mar 2007 final
+2007-04-11 14:20:11     INFO: Updating to u'erochester@rochester-lt-20070309024026-znt6nnk1m03kvpb0'
+2007-04-11 14:20:12     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:12     INFO: [Ok]
+2007-04-11 14:20:12     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:12     INFO: Changeset #83
+2007-04-11 14:20:12     INFO: Changeset "erochest@gmail.com-20070309231309-uzag8304mzm0op1s"
+2007-04-11 14:20:12     INFO: Log message: bookmarks 9 mar 2007
+2007-04-11 14:20:12     INFO: Updating to u'erochest@gmail.com-20070309231309-uzag8304mzm0op1s'
+2007-04-11 14:20:12     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:12     INFO: [Ok]
+2007-04-11 14:20:12     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:12     INFO: Changeset #84
+2007-04-11 14:20:12     INFO: Changeset "erochester@rochester-lt-20070310032148-t6zc3up4ek0yh4of"
+2007-04-11 14:20:12     INFO: Log message: bookmarks 9 mar 2007
+2007-04-11 14:20:12     INFO: Updating to u'erochester@rochester-lt-20070310032148-t6zc3up4ek0yh4of'
+2007-04-11 14:20:12     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:12     INFO: [Ok]
+2007-04-11 14:20:12     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:12     INFO: Changeset #85
+2007-04-11 14:20:12     INFO: Changeset "erochester@rochester-lt-20070312014314-2j6h7wf2jzkd4o3w"
+2007-04-11 14:20:12     INFO: Log message: bookmarks 11 mar 2007
+2007-04-11 14:20:12     INFO: Updating to u'erochester@rochester-lt-20070312014314-2j6h7wf2jzkd4o3w'
+2007-04-11 14:20:13     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:13     INFO: [Ok]
+2007-04-11 14:20:13     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:13     INFO: Changeset #86
+2007-04-11 14:20:13     INFO: Changeset "erochest@gmail.com-20070312205759-399rpl9c23rpba42"
+2007-04-11 14:20:13     INFO: Log message: bookmarks 12 mar 2007
+2007-04-11 14:20:13     INFO: Updating to u'erochest@gmail.com-20070312205759-399rpl9c23rpba42'
+2007-04-11 14:20:13     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:13     INFO: [Ok]
+2007-04-11 14:20:13     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:13     INFO: Changeset #87
+2007-04-11 14:20:13     INFO: Changeset "erochester@rochester-lt-20070313111718-m2hxvnyjeicr54hm"
+2007-04-11 14:20:13     INFO: Log message: bookmarks 12 mar 2007
+2007-04-11 14:20:13     INFO: Updating to u'erochester@rochester-lt-20070313111718-m2hxvnyjeicr54hm'
+2007-04-11 14:20:13     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:14     INFO: [Ok]
+2007-04-11 14:20:14     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:14     INFO: Changeset #88
+2007-04-11 14:20:14     INFO: Changeset "erochest@gmail.com-20070313214116-2dbdp426hkxqskp2"
+2007-04-11 14:20:14     INFO: Log message: bookmarks 13 mar 2007
+2007-04-11 14:20:14     INFO: Updating to u'erochest@gmail.com-20070313214116-2dbdp426hkxqskp2'
+2007-04-11 14:20:14     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:14     INFO: [Ok]
+2007-04-11 14:20:14     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:14     INFO: Changeset #89
+2007-04-11 14:20:14     INFO: Changeset "erochester@rochester-lt-20070314023549-nm6h41f50a96mgh9"
+2007-04-11 14:20:14     INFO: Log message: bookmarks 13 mar 2007
+2007-04-11 14:20:14     INFO: Updating to u'erochester@rochester-lt-20070314023549-nm6h41f50a96mgh9'
+2007-04-11 14:20:14     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:14     INFO: [Ok]
+2007-04-11 14:20:14     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:14     INFO: Changeset #90
+2007-04-11 14:20:14     INFO: Changeset "erochest@gmail.com-20070314223338-c3elbgki1hlhqovg"
+2007-04-11 14:20:14     INFO: Log message: bookmarks 14 mar 2007
+2007-04-11 14:20:14     INFO: Updating to u'erochest@gmail.com-20070314223338-c3elbgki1hlhqovg'
+2007-04-11 14:20:14     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:15     INFO: [Ok]
+2007-04-11 14:20:15     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:15     INFO: Changeset #91
+2007-04-11 14:20:15     INFO: Changeset "erochester@rochester-lt-20070315021352-c06nc8ufowrn7kee"
+2007-04-11 14:20:15     INFO: Log message: bookmarks 14 mar 2007
+2007-04-11 14:20:15     INFO: Updating to u'erochester@rochester-lt-20070315021352-c06nc8ufowrn7kee'
+2007-04-11 14:20:15     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:15     INFO: [Ok]
+2007-04-11 14:20:15     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:15     INFO: Changeset #92
+2007-04-11 14:20:15     INFO: Changeset "erochest@gmail.com-20070315211211-nljgy6b5p1bef1q0"
+2007-04-11 14:20:15     INFO: Log message: bookmarks 15 mar 2007
+2007-04-11 14:20:15     INFO: Updating to u'erochest@gmail.com-20070315211211-nljgy6b5p1bef1q0'
+2007-04-11 14:20:15     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:15     INFO: [Ok]
+2007-04-11 14:20:15     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:15     INFO: Changeset #93
+2007-04-11 14:20:15     INFO: Changeset "erochester@rochester-lt-20070316022449-1erfhj6w5kkhbq5y"
+2007-04-11 14:20:15     INFO: Log message: bookmarks 15 mar 2007
+2007-04-11 14:20:15     INFO: Updating to u'erochester@rochester-lt-20070316022449-1erfhj6w5kkhbq5y'
+2007-04-11 14:20:16     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:16     INFO: [Ok]
+2007-04-11 14:20:16     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:16     INFO: Changeset #94
+2007-04-11 14:20:16     INFO: Changeset "erochest@gmail.com-20070316215452-26l72iottkjtwma7"
+2007-04-11 14:20:16     INFO: Log message: bookmarks 16 mar 2007
+2007-04-11 14:20:16     INFO: Updating to u'erochest@gmail.com-20070316215452-26l72iottkjtwma7'
+2007-04-11 14:20:16     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:16     INFO: [Ok]
+2007-04-11 14:20:16     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:16     INFO: Changeset #95
+2007-04-11 14:20:16     INFO: Changeset "erochester@rochester-lt-20070319032019-v1up3tgqqyli8kk3"
+2007-04-11 14:20:16     INFO: Log message: bookmarks 18 mar 2007
+2007-04-11 14:20:16     INFO: Updating to u'erochester@rochester-lt-20070319032019-v1up3tgqqyli8kk3'
+2007-04-11 14:20:16     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:17     INFO: [Ok]
+2007-04-11 14:20:17     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:17     INFO: Changeset #96
+2007-04-11 14:20:17     INFO: Changeset "erochest@gmail.com-20070319214135-77jvmaonzp2crpo5"
+2007-04-11 14:20:17     INFO: Log message: bookmarks 19 mar 2007
+2007-04-11 14:20:17     INFO: Updating to u'erochest@gmail.com-20070319214135-77jvmaonzp2crpo5'
+2007-04-11 14:20:17     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:17     INFO: [Ok]
+2007-04-11 14:20:17     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:17     INFO: Changeset #97
+2007-04-11 14:20:17     INFO: Changeset "erochest@gmail.com-20070320211945-5xtlwfwe75k0xk7w"
+2007-04-11 14:20:17     INFO: Log message: bookmarks 20 mar 2007
+2007-04-11 14:20:17     INFO: Updating to u'erochest@gmail.com-20070320211945-5xtlwfwe75k0xk7w'
+2007-04-11 14:20:17     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:17     INFO: [Ok]
+2007-04-11 14:20:17     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:17     INFO: Changeset #98
+2007-04-11 14:20:17     INFO: Changeset "erochester@rochester-lt-20070321021123-h3yxc1k1r5yp6c6b"
+2007-04-11 14:20:17     INFO: Log message: bookmarks 20 mar 2007
+2007-04-11 14:20:17     INFO: Updating to u'erochester@rochester-lt-20070321021123-h3yxc1k1r5yp6c6b'
+2007-04-11 14:20:18     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:18     INFO: [Ok]
+2007-04-11 14:20:18     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:18     INFO: Changeset #99
+2007-04-11 14:20:18     INFO: Changeset "erochest@gmail.com-20070321212956-lljmsn76vv0coyjp"
+2007-04-11 14:20:18     INFO: Log message: bookmarks 21 mar 2007
+2007-04-11 14:20:18     INFO: Updating to u'erochest@gmail.com-20070321212956-lljmsn76vv0coyjp'
+2007-04-11 14:20:18     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:18     INFO: [Ok]
+2007-04-11 14:20:18     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:18     INFO: Changeset #100
+2007-04-11 14:20:18     INFO: Changeset "erochester@rochester-lt-20070322021645-3uwhh59j879rdjbj"
+2007-04-11 14:20:18     INFO: Log message: bookmarks 21 mar 2007
+2007-04-11 14:20:18     INFO: Updating to u'erochester@rochester-lt-20070322021645-3uwhh59j879rdjbj'
+2007-04-11 14:20:18     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:19     INFO: [Ok]
+2007-04-11 14:20:19     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:19     INFO: Changeset #101
+2007-04-11 14:20:19     INFO: Changeset "erochest@gmail.com-20070322235556-terywwrbqs5co6l8"
+2007-04-11 14:20:19     INFO: Log message: bookmarks 22 mar 2007
+2007-04-11 14:20:19     INFO: Updating to u'erochest@gmail.com-20070322235556-terywwrbqs5co6l8'
+2007-04-11 14:20:19     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:19     INFO: [Ok]
+2007-04-11 14:20:19     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:19     INFO: Changeset #102
+2007-04-11 14:20:19     INFO: Changeset "erochest@gmail.com-20070325001336-v5oa48gxna94ipmz"
+2007-04-11 14:20:19     INFO: Log message: bookmarks 24 mar 2007
+2007-04-11 14:20:19     INFO: Updating to u'erochest@gmail.com-20070325001336-v5oa48gxna94ipmz'
+2007-04-11 14:20:19     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:19     INFO: [Ok]
+2007-04-11 14:20:19     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:19     INFO: Changeset #103
+2007-04-11 14:20:19     INFO: Changeset "erochester@rochester-lt-20070325015633-5i4jq7kjh253kz7r"
+2007-04-11 14:20:19     INFO: Log message: bookmarks 24 mar 2007
+2007-04-11 14:20:19     INFO: Updating to u'erochester@rochester-lt-20070325015633-5i4jq7kjh253kz7r'
+2007-04-11 14:20:20     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:20     INFO: [Ok]
+2007-04-11 14:20:20     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:20     INFO: Changeset #104
+2007-04-11 14:20:20     INFO: Changeset "erochest@gmail.com-20070325211333-c3uahbwp80e46y00"
+2007-04-11 14:20:20     INFO: Log message: bookmarks 25 mar 2007
+2007-04-11 14:20:20     INFO: Updating to u'erochest@gmail.com-20070325211333-c3uahbwp80e46y00'
+2007-04-11 14:20:20     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:20     INFO: [Ok]
+2007-04-11 14:20:20     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:20     INFO: Changeset #105
+2007-04-11 14:20:20     INFO: Changeset "erochester@rochester-lt-20070326011618-8kcliwvwez67acqh"
+2007-04-11 14:20:20     INFO: Log message: bookmarks 25 mar 2007
+2007-04-11 14:20:20     INFO: Updating to u'erochester@rochester-lt-20070326011618-8kcliwvwez67acqh'
+2007-04-11 14:20:20     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:21     INFO: [Ok]
+2007-04-11 14:20:21     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:21     INFO: Changeset #106
+2007-04-11 14:20:21     INFO: Changeset "erochest@gmail.com-20070326215549-ovyeqt5flmhjmw2f"
+2007-04-11 14:20:21     INFO: Log message: bookmarks 26 mar 2007
+2007-04-11 14:20:21     INFO: Updating to u'erochest@gmail.com-20070326215549-ovyeqt5flmhjmw2f'
+2007-04-11 14:20:21     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:21     INFO: [Ok]
+2007-04-11 14:20:21     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:21     INFO: Changeset #107
+2007-04-11 14:20:21     INFO: Changeset "erochest@gmail.com-20070327215441-7s0ajc8cwycf6rxq"
+2007-04-11 14:20:21     INFO: Log message: bookmarks 27 mar 2007
+2007-04-11 14:20:21     INFO: Updating to u'erochest@gmail.com-20070327215441-7s0ajc8cwycf6rxq'
+2007-04-11 14:20:21     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:22     INFO: [Ok]
+2007-04-11 14:20:22     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:22     INFO: Changeset #108
+2007-04-11 14:20:22     INFO: Changeset "erochester@rochester-lt-20070328014036-k5dkchi1r4qztg7h"
+2007-04-11 14:20:22     INFO: Log message: bookmarks 27 mar 2007
+2007-04-11 14:20:22     INFO: Updating to u'erochester@rochester-lt-20070328014036-k5dkchi1r4qztg7h'
+2007-04-11 14:20:22     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:22     INFO: [Ok]
+2007-04-11 14:20:22     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:22     INFO: Changeset #109
+2007-04-11 14:20:22     INFO: Changeset "erochest@gmail.com-20070328213231-g9qhssq0pn19delp"
+2007-04-11 14:20:22     INFO: Log message: bookmarks 28 mar 2007
+2007-04-11 14:20:22     INFO: Updating to u'erochest@gmail.com-20070328213231-g9qhssq0pn19delp'
+2007-04-11 14:20:22     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:22     INFO: [Ok]
+2007-04-11 14:20:22     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:22     INFO: Changeset #110
+2007-04-11 14:20:22     INFO: Changeset "erochest@gmail.com-20070329215856-65ywibpyvseah2ug"
+2007-04-11 14:20:22     INFO: Log message: 29 mar 2007
+2007-04-11 14:20:22     INFO: Updating to u'erochest@gmail.com-20070329215856-65ywibpyvseah2ug'
+2007-04-11 14:20:22     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:23     INFO: [Ok]
+2007-04-11 14:20:23     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:23     INFO: Changeset #111
+2007-04-11 14:20:23     INFO: Changeset "erochest@gmail.com-20070330212759-o34w6wewfdi5j8li"
+2007-04-11 14:20:23     INFO: Log message: bookmarks 30 mar 2007
+2007-04-11 14:20:23     INFO: Updating to u'erochest@gmail.com-20070330212759-o34w6wewfdi5j8li'
+2007-04-11 14:20:23     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:23     INFO: [Ok]
+2007-04-11 14:20:23     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:23     INFO: Changeset #112
+2007-04-11 14:20:23     INFO: Changeset "erochester@rochester-lt-20070402015710-55ygf9rkgcc7zlwm"
+2007-04-11 14:20:23     INFO: Log message: bookmarks 1 apr 2007
+2007-04-11 14:20:23     INFO: Updating to u'erochester@rochester-lt-20070402015710-55ygf9rkgcc7zlwm'
+2007-04-11 14:20:23     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:24     INFO: [Ok]
+2007-04-11 14:20:24     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:24     INFO: Changeset #113
+2007-04-11 14:20:24     INFO: Changeset "erochest@gmail.com-20070402165128-z4ouv5c711sdx861"
+2007-04-11 14:20:24     INFO: Log message: bookmarks mid 2 apr 2007
+2007-04-11 14:20:24     INFO: Updating to u'erochest@gmail.com-20070402165128-z4ouv5c711sdx861'
+2007-04-11 14:20:24     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:24     INFO: [Ok]
+2007-04-11 14:20:24     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:24     INFO: Changeset #114
+2007-04-11 14:20:24     INFO: Changeset "erochester@rochester-lt-20070403010436-6tofewxxfpllfn9a"
+2007-04-11 14:20:24     INFO: Log message: bookmarks 2 apr 2007
+2007-04-11 14:20:24     INFO: Updating to u'erochester@rochester-lt-20070403010436-6tofewxxfpllfn9a'
+2007-04-11 14:20:24     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:25     INFO: [Ok]
+2007-04-11 14:20:25     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:25     INFO: Changeset #115
+2007-04-11 14:20:25     INFO: Changeset "erochest@gmail.com-20070403214250-wdzr51b5ixotlm8h"
+2007-04-11 14:20:25     INFO: Log message: bookmarks 3 apr 2007
+2007-04-11 14:20:25     INFO: Updating to u'erochest@gmail.com-20070403214250-wdzr51b5ixotlm8h'
+2007-04-11 14:20:25     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:25     INFO: [Ok]
+2007-04-11 14:20:25     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:25     INFO: Changeset #116
+2007-04-11 14:20:25     INFO: Changeset "erochester@rochester-lt-20070404021313-d4r3fa68g82hzhf1"
+2007-04-11 14:20:25     INFO: Log message: bookmarks 3 apr 2007
+2007-04-11 14:20:25     INFO: Updating to u'erochester@rochester-lt-20070404021313-d4r3fa68g82hzhf1'
+2007-04-11 14:20:25     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:26     INFO: [Ok]
+2007-04-11 14:20:26     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:26     INFO: Changeset #117
+2007-04-11 14:20:26     INFO: Changeset "erochest@gmail.com-20070404220256-r306qqg3pot38fnf"
+2007-04-11 14:20:26     INFO: Log message: bookmarks 4 apr 2007
+2007-04-11 14:20:26     INFO: Updating to u'erochest@gmail.com-20070404220256-r306qqg3pot38fnf'
+2007-04-11 14:20:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:26     INFO: [Ok]
+2007-04-11 14:20:26     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:26     INFO: Changeset #118
+2007-04-11 14:20:26     INFO: Changeset "erochest@gmail.com-20070406221240-k449u19nrcf0awpb"
+2007-04-11 14:20:26     INFO: Log message: bookmarks 6 apr 2007
+2007-04-11 14:20:26     INFO: Updating to u'erochest@gmail.com-20070406221240-k449u19nrcf0awpb'
+2007-04-11 14:20:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:26     INFO: [Ok]
+2007-04-11 14:20:26     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:26     INFO: Changeset #119
+2007-04-11 14:20:26     INFO: Changeset "erochester@rochester-lt-20070407235746-jd8a1qkqms6m36j2"
+2007-04-11 14:20:26     INFO: Log message: bookmarks 7 apr 2007
+2007-04-11 14:20:26     INFO: Updating to u'erochester@rochester-lt-20070407235746-jd8a1qkqms6m36j2'
+2007-04-11 14:20:26     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:27     INFO: [Ok]
+2007-04-11 14:20:27     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:27     INFO: Changeset #120
+2007-04-11 14:20:27     INFO: Changeset "erochest@gmail.com-20070409215638-l5ambf3fajsfhf77"
+2007-04-11 14:20:27     INFO: Log message: bookmarks 9 apr 2007
+2007-04-11 14:20:27     INFO: Updating to u'erochest@gmail.com-20070409215638-l5ambf3fajsfhf77'
+2007-04-11 14:20:27     INFO: /home/eric/src/baldrick/darcs/home/settings $ darcs record --all --pipe
+2007-04-11 14:20:27     INFO: [Ok]
+2007-04-11 14:20:27     INFO: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+2007-04-11 14:20:27     INFO: 0 pending changesets in state file
+2007-04-11 14:20:27     INFO: Update completed, now at revision "erochest@gmail.com-20070409215638-l5ambf3fajsfhf77"
