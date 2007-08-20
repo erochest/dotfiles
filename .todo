@@ -1,0 +1,7 @@
+((todo-dir . "~/gtd/")
+ (todo-file . "todo.txt")
+ (done-file . "done.txt")
+ (report-file . "report.txt")
+ (tmp-file . "todo.tmp"))
+
+; vim: set filetype=scheme:
