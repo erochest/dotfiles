@@ -15,5 +15,5 @@ if [ -d ~/bin ] ; then
     PATH=~/bin:"${PATH}"
 fi
 
-PATH=/opt/mono-1.1.16/bin:${PATH}
+PATH=/usr/local/Gambit-C/v4.0.0/bin/:${PATH}
 
