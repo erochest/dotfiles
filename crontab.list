@@ -1,0 +1,3 @@
+# m h  dom mon dow   command
+30 10 * * 1 /home/eric/bin/janitor.py
+00 17 * * * /home/eric/bin/gmailbackup
