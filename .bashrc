@@ -92,5 +92,7 @@ fi
 
 #PATH=/opt/mono-1.1.16/bin:${PATH}
 
-export EDITOR VISUAL
+NNTPSERVER=newsgroups.bellsouth.net
+
+export EDITOR VISUAL NNTPSERVER
 
