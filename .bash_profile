@@ -15,5 +15,3 @@ if [ -d ~/bin ] ; then
     PATH=~/bin:"${PATH}"
 fi
 
-PATH=/usr/local/Gambit-C/v4.0.0/bin/:${PATH}
-

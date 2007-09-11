@@ -3,3 +3,8 @@ set realname "Eric Rochester"
 set username "erochest"
 set hostname "bellsouth.net"
 
+set Xbrowser "firefox '%s' &"
+
+set decode_directory "news"
+set save_directory "news"
+
