@@ -90,7 +90,7 @@ fi
 #    PATH=~/gtd/bin:"${PATH}"
 #fi
 
-PATH=/usr/local/Gambit-C/current/bin/:${PATH}
+PATH=/usr/local/Gambit-C/current/bin/:/usr/share/snow/current/bin:${PATH}
 
 NNTPSERVER=newsgroups.bellsouth.net
 
