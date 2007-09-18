@@ -11,7 +11,7 @@
       (set-default-font "-*-Bitstream Vera Sans Mono-normal-r-*-*-12-*-*-*-c-*-iso8859-1")
       (setq inferior-lisp-program "C:/lisp/SBCL/1.0.6/sbcl.exe"))
   (progn
-    (set-default-font "-*-bitstream vera sans mono-medium-r-*-*-12-*-*-*-c-*-iso8859-1")
+    (set-default-font "lucidasanstypewriter-10")
     (setq inferior-lisp-program "sbcl")))
 
 ;;;; personal packages
