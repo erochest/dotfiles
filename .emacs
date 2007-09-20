@@ -17,7 +17,7 @@
 ;;;; personal packages
 (add-to-list 'load-path "~/src/lisp-site")
 (add-to-list 'load-path "~/src/lisp-site/python-mode-1.0")
-
+(add-to-list 'load-path "~/src/lisp-site/erlang")
 
 ;;;; slime
 ;(setq inferior-lisp-program
