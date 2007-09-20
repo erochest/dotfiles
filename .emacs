@@ -41,6 +41,14 @@
 				   interpreter-mode-alist))
 (autoload 'python-mode "python-mode" "Python editing mode." t)
 
+;;;; erlang mode
+(if (memq window-system '(win32 w32))
+  (progn
+    (setq erlang-root-dir "C:/erlang/erl5.5.5")
+    (setq exec-path (cons "C:/erlang/erl5.5.5/bin" exec-path)))
+  (setq erlang-root-dir "/usr/local"))
+(require 'erlang-start)
+
 ;;;; paredit
 ;(autoload 'paredit-mode "paredit"
 ;          "Minor mode for pseudo-structurally editing Lisp code."
