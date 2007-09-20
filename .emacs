@@ -58,11 +58,11 @@
 (global-set-key "\C-c'" 'unicode-smart-single-quote)
 
 ;;;; vimpulse
-(setq viper-mode t)
-(setq viper-ex-style-editing nil)
-(require 'viper)
-(require 'vimpulse)
-(setq woman-use-own-frame nil)
-(setq woman-use-topic-at-point t)
-(require 'redo)
+;(setq viper-mode t)
+;(setq viper-ex-style-editing nil)
+;(require 'viper)
+;(require 'vimpulse)
+;(setq woman-use-own-frame nil)
+;(setq woman-use-topic-at-point t)
+;(require 'redo)
 
