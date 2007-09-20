@@ -14,6 +14,9 @@
     (set-default-font "lucidasanstypewriter-10")
     (setq inferior-lisp-program "sbcl")))
 
+;;;; indent only with spaces. death to tabs!
+(setq-default indent-tabs-mode nil)
+
 ;;;; personal packages
 (add-to-list 'load-path "~/src/lisp-site")
 (add-to-list 'load-path "~/src/lisp-site/python-mode-1.0")
