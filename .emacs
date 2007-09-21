@@ -9,7 +9,7 @@
 (if (memq window-system '(win32 w32))
     (progn
       (set-default-font "-*-Bitstream Vera Sans Mono-normal-r-*-*-12-*-*-*-c-*-iso8859-1")
-      (setq inferior-lisp-program "C:/lisp/SBCL/1.0.6/sbcl.exe"))
+      (setq inferior-lisp-program "C:/lisp/SBCL/1.0.9/sbcl.exe"))
   (progn
     (set-default-font "lucidasanstypewriter-10")
     (setq inferior-lisp-program "sbcl")))
