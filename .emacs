@@ -21,6 +21,7 @@
 (add-to-list 'load-path "~/src/lisp-site")
 (add-to-list 'load-path "~/src/lisp-site/python-mode-1.0")
 (add-to-list 'load-path "~/src/lisp-site/erlang")
+(add-to-list 'load-path "~/src/lisp-site/redshank")
 
 ;;;; slime
 ;(setq inferior-lisp-program
@@ -50,11 +51,17 @@
 (require 'erlang-start)
 
 ;;;; paredit
-;(autoload 'paredit-mode "paredit"
-;          "Minor mode for pseudo-structurally editing Lisp code."
-;          t)
-;(add-hook 'scheme-mode-hook (lambda () (paredit-mode +1)))
-;(add-hook 'lisp-mode-hook (lambda () (paredit-mode +1)))
+(autoload 'paredit-mode "paredit"
+          "Minor mode for pseudo-structurally editing Lisp code."
+          t)
+(add-hook 'scheme-mode-hook (lambda () (paredit-mode +1)))
+(add-hook 'lisp-mode-hook (lambda () (paredit-mode +1)))
+
+;;;; redshank
+(autoload 'redshank-mode "redshank"
+          "Mintor mode for editing and refactoring (Common) Lisp code."
+          t)
+(add-hook 'lisp-mode-hook (lambda () (redshank-mode +1)))
 
 ;;;; restructured text
 (require 'rst)
