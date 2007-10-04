@@ -9,7 +9,7 @@ alias rst2s5='python C:/Python25/Scripts/rst2s5.py'
 alias rst2xml='python C:/Python25/Scripts/rst2xml.py'
 alias scons='python C:/Python25/Scripts/scons'
 alias bak='python C:/home/eric/bin/bak.py'
-alias django-admin='python C:/home/eric/bin/django-admin.py'
+alias django-admin='python C:/home/eric/src/django/django/bin/django-admin.py'
 alias rndname='python C:/home/eric/bin/rndname.py'
 alias ipy='/c/LSE/Lse.Net/ipy.exe -X:TabCompletion -X:ColorfulConsole -X:AutoIndent'
 
