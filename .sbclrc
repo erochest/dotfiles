@@ -16,4 +16,25 @@
 #+win32
 (require 'sb-introspect)
 
+;;; for command-line scripts
+(let ((script (and (second *posix-argv*)
+                   (probe-file (second *posix-argv*)))))
+  (when script
+    ;; handle shebang-line
+    (set-dispatch-macro-character #\# #\!
+                                  (lambda (stream char arg)
+                                    (declare (ignore char arg))
+                                    (read-line stream)))
+    ;; disable debugger
+    (setf *invoke-debugger-hook*
+          (lambda (condition hook)
+            (declare (ignore hook))
+            ;; uncomment to get backtraces on errors
+            ;; (sb-debug:backtrace 20)
+            (format *error-output* "Error: ~A~%" condition)
+            (quit)))
+    (load script)
+    (quit)))
+
+
 ; vim: set filetype=lisp:
