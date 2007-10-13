@@ -12,7 +12,7 @@ alias pybuild='python2.4 setup.py build'
 alias pyinstall='sudo python2.4 setup.py install'
 alias timeit='python2.4 -m timeit'
 
-alias t='todo.sh'
+alias t='/home/eric/gtd/todo.sh'
 
 ff() { find . -name "$@" -print; }
 lll() { ls -laF "$@" | less; }
