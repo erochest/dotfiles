@@ -138,3 +138,8 @@ let g:otl_use_thlnk=0
 " Erlang mode settings
 let g:erlangCompiler="emake"
 
+" dbext profiles
+let g:dbext_default_profile_rochester_hm = 'type=SQLSRV:srvname=ROCHESTER-HM\SQLEXPRESS:dbname=Lse:integratedlogin=1'
+let g:dbext_default_profile_wh_pub_01 = 'type=SQLSRV:srvname=WH-PUB-01:dbname=EP_Sample:integratedlogin=1'
+let g:dbext_default_profile_lsedb_dev = 'type=SQLITE:SQLITE_bin=sqlite3:dbname=C:\home\eric\src\ase\lsedb\lsedb.db'
+
