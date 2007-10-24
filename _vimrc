@@ -18,6 +18,8 @@ set incsearch
 " turn on the wildcard menu
 set wildmenu
 "set wildmode=list:longest,full
+" turn on modelines (this appears to be off on ubuntu)
+set modeline
 
 filetype plugin on
 
