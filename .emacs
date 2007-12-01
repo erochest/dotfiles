@@ -10,15 +10,14 @@
     (progn
       (set-default-font "-*-Bitstream Vera Sans Mono-normal-r-*-*-12-*-*-*-c-*-iso8859-1")
       (setq slime-lisp-implementations
-            '((sbcl ("C:/lisp/SBCL/1.0.9/sbcl.exe"))
-              (clisp ("C:/lisp/clisp-2.41/clisp.exe")))))
-      ;(setq inferior-lisp-program "C:/lisp/SBCL/1.0.9/sbcl.exe"))
-  (progn
-    (set-default-font "lucidasanstypewriter-10")
-    (setq slime-lisp-implementations
-          '((sbcl ("sbcl"))
-            (clisp ("clisp"))))))
-    ;(setq inferior-lisp-program "sbcl")))
+            '((sbcl ("C:/lisp/SBCL/1.0.12/sbcl.exe"))
+              (clisp ("C:/lisp/clisp-2.41/clisp.exe"))))
+      ;(setq inferior-lisp-program "C:/lisp/SBCL/1.0.12/sbcl.exe")
+      )
+    (progn
+      (set-default-font "lucidasanstypewriter-10")
+      (setq slime-lisp-implementations
+            '((sbcl ("sbcl"))))))
 
 ;;;; indent only with spaces. death to tabs!
 (setq-default indent-tabs-mode nil)
