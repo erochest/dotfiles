@@ -29,9 +29,6 @@
 (add-to-list 'load-path "~/src/lisp-site/redshank")
 
 ;;;; slime
-;(setq inferior-lisp-program
-;      (concat "C:/clisp/full/lisp.exe -B C:/clisp/full/ "
-;              "-M C:/clisp/full/lispinit.mem -i C:/home/.clisprc -ansi -q"))
 (add-to-list 'load-path "~/src/lisp-site/slime")
 (require 'slime)
 (slime-setup)
