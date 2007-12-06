@@ -89,3 +89,9 @@
 ;(setq woman-use-topic-at-point t)
 ;(require 'redo)
 
+;;;; nxml mode
+(load "~/src/lisp-site/nxml-mode/rng-auto.el")
+(setq auto-mode-alist
+      (cons '("\\.\\(xml\\|xsl\\|rng\\|xhtml\\)\\'" . nxml-mode)
+            auto-mode-alist))
+
