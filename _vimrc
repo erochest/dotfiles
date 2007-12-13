@@ -121,9 +121,9 @@ nmap <LocalLeader>log Go<C-r>=strftime("%c")<CR><Space>
 nmap <F5> :NERDTreeToggle<CR>
 
 " smart quotes and long dashes
-imap <LocalLeader><" “
-imap <LocalLeader>>" ”
-imap <LocalLeader>>' ’
+imap <LocalLeader>," “
+imap <LocalLeader>." ”
+imap <LocalLeader>.' ’
 imap <LocalLeader>m- —
 imap <LocalLeader>n- –
 
