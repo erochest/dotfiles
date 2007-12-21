@@ -119,3 +119,33 @@
     (setq tab-width 4)
     (define-key csharp-mode-map "\t" 'c-tab-indent-or-complete)))
 (add-hook 'csharp-mode-hook 'my-csharp-mode-hook)
+
+;;; Tuareg mode for Caml (and F#)
+(setq auto-mode-alist (cons '("\\.ml\\w?" . tuareg-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.fs\\w?" . tuareg-mode) auto-mode-alist))
+(autoload 'tuareg-mode "tuareg" "Major mode for editing Caml code" t)
+(autoload 'camldebug "camldebug" "Run the Caml debugger" t)
+
+;; This modifies the mode for F#
+(defadvice tuareg-find-alternate-file (around fsharp-find-alternate-file)
+  "Switch Implementation/Interface."
+  (interactive)
+  (let ((name (buffer-file-name)))
+    (if (string-match "\\`\\(.*\\)\\.fs\\(i\\)?\\'" name)
+        (find-file (concat (tuareg-match-string 1 name)
+                           (if (match-beginning 2) ".fs" ".fsi"))))))
+
+(defconst tuareg-error-regeaxp-fs
+  "^\\([^(\n]+\\)(\\([0-9]+\a\),\\([0-9]+\\)):"
+  "Regular expression matching the error messages produced by fsc.")
+
+(add-hook 'tuareg-mode-hook
+          '(lambda ()
+             (ad-activate 'tuareg-find-alternate-file)
+             (setq tuareg-interactive-program "fsi")
+             (if (boundp 'compilation-error-regexp-alist)
+                 (or (assoc tuareg-error-regexp-fs
+                            compilation-error-regexp-alist)
+                     (setq compilation-error-regexp-alist
+                           (cons (list tuareg-error-regexp-fs 1 2 3)
+                                 compilation-error-regexp-alist))))))
