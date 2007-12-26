@@ -12,12 +12,12 @@
       (setq slime-lisp-implementations
             '((sbcl ("C:/lisp/SBCL/1.0.12/sbcl.exe"))
               (clisp ("C:/lisp/clisp-2.41/clisp.exe"))))
-      ;(setq inferior-lisp-program "C:/lisp/SBCL/1.0.12/sbcl.exe")
+                                        ;(setq inferior-lisp-program "C:/lisp/SBCL/1.0.12/sbcl.exe")
       )
-    (progn
-      (set-default-font "lucidasanstypewriter-10")
-      (setq slime-lisp-implementations
-            '((sbcl ("sbcl"))))))
+  (progn
+    (set-default-font "lucidasanstypewriter-10")
+    (setq slime-lisp-implementations
+          '((sbcl ("sbcl"))))))
 
 ;;;; indent only with spaces. death to tabs!
 (setq-default indent-tabs-mode nil)
@@ -98,7 +98,7 @@
 ;;;; C# mode
 (autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
 (setq auto-mode-alist
-      (append '(("\.cs$" . csharp-mode)) auto-mode-alist))
+      (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
 
 ;; C/C++/Java/C# Mode
 ;; (from http://mfgames.com/linux/docs/csharp-mode)
