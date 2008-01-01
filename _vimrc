@@ -116,7 +116,8 @@ nmap <Tab> <C-W>W
 " switch tabs on CTRL-tab
 nmap <C-Tab> gt
 
-nmap <LocalLeader>log Go<C-r>=strftime("%c")<CR><Space>
+nmap <LocalLeader>log Go<C-r>=strftime("%m/%d/%Y %H:%M")<CR><Space>
+nmap <LocalLeader>done G2Ea-<C-r>=strftime("%m/%d/%Y %H:%M")<CR><ESC>o<C-r>=strftime("%m/%d/%Y %H:%M")<CR><Space>
 
 nmap <F5> :NERDTreeToggle<CR>
 
