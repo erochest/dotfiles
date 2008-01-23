@@ -38,7 +38,7 @@
 (slime-autodoc-mode)
 
 ;;;; scheme mode
-(setf scheme-program-name "mzscheme")
+(setf scheme-program-name "csi")
 
 ;;;; python mode
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
