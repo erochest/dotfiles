@@ -26,6 +26,7 @@
 (add-to-list 'load-path "~/src/lisp-site/python-mode-1.0")
 (add-to-list 'load-path "~/src/lisp-site/erlang")
 (add-to-list 'load-path "~/src/lisp-site/redshank")
+(add-to-list 'load-path "~/src/lisp-site/color-theme")
 
 ;;;; slime
 (add-to-list 'load-path "~/src/lisp-site/slime")
@@ -185,3 +186,7 @@
 (defun startup-echo-area-message ()
   (fortune))
 
+;;; Color Themes
+(require 'color-theme)
+(load "~/src/lisp-site/color-theme/themes/color-theme-library.el")
+(color-theme-blue-mood)
