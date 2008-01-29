@@ -47,6 +47,7 @@
   "Where ASDF can be found.  This pathname should not have a type.")
 
 (defvar *asdf-base-dirs* (list
+                           (merge-pathnames #P"lisp/systems/" (user-homedir-pathname))
                            (merge-pathnames #P"lisp/packages/" (user-homedir-pathname)))
   "A list of directories \(note trailing slashes) which contain
 directories that contain ASDF system definitions.
@@ -88,7 +89,12 @@ registry."
   (dolist (base-dir *asdf-base-dirs*)
     (walk-directory-for-asdf base-dir)))
 
+#+win32
 (update-asdf-central-registry)
+
+#-win32
+(dolist (dirname *asdf-base-dirs*)
+  (pushnew dirname asdf:*central-registry* :test #'equal))
 
 (defmethod asdf:perform :around ((o asdf:load-op) (c asdf:cl-source-file))
   "When trying to load a Lisp source file with ASDF that has a wrong
