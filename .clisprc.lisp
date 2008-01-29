@@ -1,5 +1,5 @@
 
-(load (compile-file (merge-pathnames #P"src/lisp-site/asdf.lisp" (user-homedir-pathname))))
+(load (compile-file (merge-pathnames #P"lisp/asdf.lisp" (user-homedir-pathname))))
 
 ;;; Code i've added to automatically find the package directories and add
 ;;; them to the central registry.
@@ -10,6 +10,6 @@
              asdf:*central-registry*
              :test #'equal)))
 
-(add-all-packages (merge-pathnames #P"src/lisp-site/packages/" (user-homedir-pathname)))
+(add-all-packages (merge-pathnames #P"lisp/packages/" (user-homedir-pathname)))
 
 ; vim: set filetype=lisp:

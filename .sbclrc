@@ -10,7 +10,7 @@
              asdf:*central-registry*
              :test #'equal)))
 
-(add-all-packages (merge-pathnames #P"src/lisp-site/packages/" (user-homedir-pathname)))
+(add-all-packages (merge-pathnames #P"lisp/packages/" (user-homedir-pathname)))
 
 ;;; things to load to get slime working
 #+win32
