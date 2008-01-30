@@ -22,14 +22,14 @@
 (setq-default indent-tabs-mode nil)
 
 ;;;; personal packages
-(add-to-list 'load-path "~/src/lisp-site")
-(add-to-list 'load-path "~/src/lisp-site/python-mode-1.0")
-(add-to-list 'load-path "~/src/lisp-site/erlang")
-(add-to-list 'load-path "~/src/lisp-site/redshank")
-(add-to-list 'load-path "~/src/lisp-site/color-theme")
+(add-to-list 'load-path "~/lisp")
+(add-to-list 'load-path "~/lisp/python-mode-1.0")
+(add-to-list 'load-path "~/lisp/erlang")
+(add-to-list 'load-path "~/lisp/redshank")
+(add-to-list 'load-path "~/lisp/color-theme")
 
 ;;;; slime
-(add-to-list 'load-path "~/src/lisp-site/slime")
+(add-to-list 'load-path "~/lisp/slime")
 (require 'slime)
 (slime-setup)
 
@@ -74,8 +74,8 @@
 
 ;;;; unicode character handling
 (set-language-environment "UTF-8")
-(load "~/src/lisp-site/unichars")
-(load "~/src/lisp-site/xmlunicode")
+(load "~/lisp/unichars")
+(load "~/lisp/xmlunicode")
 (global-set-key "\C-cu" 'unicode-character-insert)
 (global-set-key "\C-c\"" 'unicode-smart-double-quote)
 (global-set-key "\C-c'" 'unicode-smart-single-quote)
@@ -90,7 +90,7 @@
 ;(require 'redo)
 
 ;;;; nxml mode
-(load "~/src/lisp-site/nxml-mode/rng-auto.el")
+(load "~/lisp/nxml-mode/rng-auto.el")
 (setq auto-mode-alist
       (cons '("\\.\\(xml\\|xsl\\|rng\\|xhtml\\)\\'" . nxml-mode)
             auto-mode-alist))
@@ -188,5 +188,5 @@
 
 ;;; Color Themes
 (require 'color-theme)
-(load "~/src/lisp-site/color-theme/themes/color-theme-library.el")
-(color-theme-blue-mood)
+(load "~/lisp/color-theme/themes/color-theme-library.el")
+;(color-theme-blue-mood)
