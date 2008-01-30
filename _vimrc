@@ -118,6 +118,7 @@ nmap <C-Tab> gt
 
 nmap <LocalLeader>log Go<C-r>=strftime("%m/%d/%Y %H:%M")<CR><Space>
 nmap <LocalLeader>done G2Ea-<C-r>=strftime("%m/%d/%Y %H:%M")<CR><ESC>o<C-r>=strftime("%m/%d/%Y %H:%M")<CR><Space>
+nmap <LocalLeader>dh o<CR><C-r>=strftime("%d %b %Y")<CR><ESC>"zyy"zp:s/./=/g<CR>:nohl<CR>j
 
 nmap <F5> :NERDTreeToggle<CR>
 
