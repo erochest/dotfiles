@@ -1259,3 +1259,7 @@ write all the code I am dying to write.
 Neutrality? I want to bury other languages, not have a gateway to them. 
 -- Ken Tilton 
 %
+Since moving from SF to New Hampshire I have no access to mind altering  
+drugs. So, thought I would try lisp. 
+-- Rob Koberg
+%
