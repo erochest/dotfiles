@@ -18,4 +18,8 @@
          asdf:*central-registry*
          :test #'equal)
 
+(defun asdf (lib)
+  "Shortcut for ASDF."
+  (asdf:oos 'asdf:load-op lib))
+
 ; vim: set filetype=lisp:
