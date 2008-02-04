@@ -40,7 +40,7 @@
 #+:win32
 ;; to "fix" USER-HOMEDIR-PATHNAME
 ;; see <http://support.microsoft.com/default.aspx?scid=kb;en-us;101507>
-(setf (lw:environment-variable "HOMEPATH") "\\home"
+(setf (lw:environment-variable "HOMEPATH") "\\home\\eric"
       (lw:environment-variable "HOMEDRIVE") "C:")
 
 (defvar *asdf-pathname* (merge-pathnames #P"lisp/asdf" (user-homedir-pathname))
