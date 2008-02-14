@@ -56,17 +56,17 @@
 (require 'erlang-start)
 
 ;;;; paredit
-(autoload 'paredit-mode "paredit"
-          "Minor mode for pseudo-structurally editing Lisp code."
-          t)
-(add-hook 'scheme-mode-hook (lambda () (paredit-mode +1)))
-(add-hook 'lisp-mode-hook (lambda () (paredit-mode +1)))
+;(autoload 'paredit-mode "paredit"
+;          "Minor mode for pseudo-structurally editing Lisp code."
+;          t)
+;(add-hook 'scheme-mode-hook (lambda () (paredit-mode +1)))
+;(add-hook 'lisp-mode-hook (lambda () (paredit-mode +1)))
 
 ;;;; redshank
-(autoload 'redshank-mode "redshank"
-          "Mintor mode for editing and refactoring (Common) Lisp code."
-          t)
-(add-hook 'lisp-mode-hook (lambda () (redshank-mode +1)))
+;(autoload 'redshank-mode "redshank"
+;          "Mintor mode for editing and refactoring (Common) Lisp code."
+;          t)
+;(add-hook 'lisp-mode-hook (lambda () (redshank-mode +1)))
 
 ;;;; restructured text
 (require 'rst)
@@ -187,6 +187,6 @@
   (fortune))
 
 ;;; Color Themes
-(require 'color-theme)
-(load "~/lisp/color-theme/themes/color-theme-library.el")
+;(require 'color-theme)
+;(load "~/lisp/color-theme/themes/color-theme-library.el")
 ;(color-theme-blue-mood)
