@@ -52,7 +52,8 @@
 (slime-autodoc-mode)
 
 ;;;; scheme mode
-(setf scheme-program-name "csi")
+(require 'quack)
+(setf scheme-program-name "mzscheme")
 
 ;;;; python mode
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
