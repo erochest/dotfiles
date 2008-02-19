@@ -18,6 +18,19 @@
     (setq slime-lisp-implementations
           '((sbcl ("sbcl"))))))
 
+;;;; don't always move the middle of the screen when scrolling off the
+;;;; bottom or top of the screen
+(setq-default scroll-step 2)
+
+;;;; show the current column
+(column-number-mode t)
+
+;;;; turn off sound
+(setq visible-bell t)
+
+;;;; always match parens
+(show-paren-mode)
+
 ;;;; indent only with spaces. death to tabs!
 (setq-default indent-tabs-mode nil)
 
@@ -151,6 +164,10 @@
                                  compilation-error-regexp-alist))))))
 
 ;;; Fortune system from http://bc.tech.coop/blog/071226.html
+
+;; Initialize the random number algo
+(random t)
+
 (defvar fortune-file "~/.fortune.txt"
   "The file that fortunes come from.")
 
