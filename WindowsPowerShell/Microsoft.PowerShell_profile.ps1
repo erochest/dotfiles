@@ -1,7 +1,7 @@
 
 new-psdrive -name Home -psprovider FileSystem -root C:\home\eric
 
-new-item -path alias:gvim -value C:\Vim\vim71\gvim.exe
+new-item -path alias:gvim -value "C:\Program Files\Vim\vim71\gvim.exe"
 
 function pro {
 	gvim $profile
