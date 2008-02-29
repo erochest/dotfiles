@@ -205,6 +205,6 @@
   (fortune))
 
 ;;; Color Themes
-(require 'color-theme)
-(load "~/lisp/color-theme/themes/color-theme-library.el")
-(color-theme-charcoal-black)
+;(require 'color-theme)
+;(load "~/lisp/color-theme/themes/color-theme-library.el")
+;(color-theme-charcoal-black)
