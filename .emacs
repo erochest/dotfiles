@@ -39,7 +39,8 @@
 (add-to-list 'load-path "~/lisp/python-mode-1.0")
 (add-to-list 'load-path "~/lisp/erlang")
 (add-to-list 'load-path "~/lisp/redshank")
-(add-to-list 'load-path "~/lisp/color-theme")
+;(add-to-list 'load-path "~/lisp/color-theme")
+(add-to-list 'load-path "~/lisp/yasnippet")
 
 ;;;; slime
 (add-to-list 'load-path "~/lisp/slime")
@@ -203,6 +204,11 @@
 ;; Override standard startup message
 (defun startup-echo-area-message ()
   (fortune))
+
+;;; yasnippet
+(require 'yasnippet)
+(yas/initialize)
+(yas/load-directory "~/lisp/yasnippet/snippets")
 
 ;;; Color Themes
 ;(require 'color-theme)
