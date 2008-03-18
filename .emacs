@@ -85,7 +85,10 @@
 
 ;;;; restructured text
 (require 'rst)
+(defun my-rst-mode-common-hook ()
+  (setq tab-width 2))
 (add-hook 'text-mode-hook 'rst-text-mode-bindings)
+(add-hook 'text-mode-hook 'my-rst-mode-common-hook)
 
 ;;;; unicode character handling
 (set-language-environment "UTF-8")
