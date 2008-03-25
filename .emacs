@@ -78,16 +78,16 @@
 (add-hook 'lisp-mode-hook (lambda () (paredit-mode +1)))
 
 ;;;; redshank
-;(autoload 'redshank-mode "redshank"
-;          "Mintor mode for editing and refactoring (Common) Lisp code."
-;          t)
-;(add-hook 'lisp-mode-hook (lambda () (redshank-mode +1)))
+(autoload 'redshank-mode "redshank"
+          "Mintor mode for editing and refactoring (Common) Lisp code."
+          t)
+(add-hook 'lisp-mode-hook (lambda () (redshank-mode +1)))
 
 ;;;; restructured text
 (require 'rst)
 (defun my-rst-mode-common-hook ()
   (setq tab-width 2))
-(add-hook 'text-mode-hook 'rst-text-mode-bindings)
+;(add-hook 'text-mode-hook 'rst-text-mode-bindings)
 (add-hook 'text-mode-hook 'my-rst-mode-common-hook)
 
 ;;;; unicode character handling
