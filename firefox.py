@@ -1,5 +1,6 @@
 
 
+import glob
 import os
 import sys
 
@@ -21,9 +22,9 @@ def get_profile_dir():
     else:
         basedir = os.getcwd()
     dirs = [
-        os.path.join(basedir, fn)
-        for fn in os.listdir(basedir)
-        if os.path.isdir(os.path.join(basedir, fn))
+        dirname
+        for dirname in glob.glob(os.path.join(basedir, '*.default'))
+        if os.path.isdir(dirname)
         ]
     for dirname in dirs:
         if os.path.exists(os.path.join(dirname, 'bookmarks.html')):
