@@ -57,7 +57,7 @@ set encoding=utf-8
 if has("X11")
 	let Tlist_Ctags_Cmd="ctags"
 	let g:pydoc_cmd = "python2.5 -m pydoc"
-	set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
+	set guifont=DejaVu\ Sans\ Mono\ 10
 elseif has("win32") && filereadable("C:\\Python25\\python.exe")
 	let Tlist_Ctags_Cmd="ctags.exe"
 	let g:pydoc_cmd = "C:\\Python25\\Lib\\pydoc.py"
