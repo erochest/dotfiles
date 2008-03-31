@@ -90,7 +90,7 @@ fi
 #    PATH=~/gtd/bin:"${PATH}"
 #fi
 
-PATH=/home/eric/flex/bin:${PATH}
+PATH=/home/eric/flex/bin:/home/eric/air/bin:${PATH}
 
 NNTPSERVER=newsgroups.bellsouth.net
 
