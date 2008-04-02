@@ -50,8 +50,6 @@
 (add-hook 'lisp-mode-hook (lambda () (slime-mode t)))
 (add-hook 'inferior-lisp-mode-hook (lambda () (inferior-slime-mode t)))
 
-(slime-autodoc-mode)
-
 ;;;; scheme mode
 (require 'quack)
 (setf scheme-program-name "mzscheme")
