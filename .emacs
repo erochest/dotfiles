@@ -42,6 +42,11 @@
 ;(add-to-list 'load-path "~/lisp/color-theme")
 (add-to-list 'load-path "~/lisp/yasnippet")
 
+;;;; clojure
+(add-to-list 'load-path "~/lisp/clojure-mode")
+(setq auto-mode-alist (cons '("\\.clj$" . clojure-mode) auto-mode-alist))
+(autoload 'clojure-mode "clojure-mode" "Clojure editing mode." t)
+
 ;;;; slime
 (add-to-list 'load-path "~/lisp/slime")
 (require 'slime)
