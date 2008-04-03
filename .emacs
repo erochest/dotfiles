@@ -43,9 +43,35 @@
 (add-to-list 'load-path "~/lisp/yasnippet")
 
 ;;;; clojure
-(add-to-list 'load-path "~/lisp/clojure-mode")
+(add-to-list 'load-path "~/lisp/clojure-emacs/clojure-mode")
+
+(require 'clojure-mode)
 (setq auto-mode-alist (cons '("\\.clj$" . clojure-mode) auto-mode-alist))
-(autoload 'clojure-mode "clojure-mode" "Clojure editing mode." t)
+(add-hook 'clojure-mode-hook
+          '(lambda ()
+             (define-key clojure-mode-map "\C-c\C-e" 'lisp-eval-last-sexp)
+             (define-key clojure-mode-map "\C-x\C-e" 'lisp-eval-last-sexp)))
+
+(setq inferior-lisp-program
+      (let* ((win32 (memq window-system '(win32 w32)))
+             (java-path "java")
+             (java-options "")
+             (clojure-path (if win32
+                               "C:\\Java\\clojure\\target\\"
+                             "~/java/clojure/target/"))
+             (class-path-delimiter (if win32 ";" ":"))
+             (class-path (mapconcat (lambda (s) s)
+                                    ; Add other paths to this list
+                                    ; if you want to have other
+                                    ; things in your classpath.
+                                    (list (concat
+                                           clojure-path
+                                           "clojure-lang-1.0-SNAPSHOT.jar"))
+                                    class-path-delimiter)))
+        (concat java-path
+                " " java-options
+                " -cp " class-path
+                " clojure.lang.Repl")))
 
 ;;;; slime
 (add-to-list 'load-path "~/lisp/slime")
