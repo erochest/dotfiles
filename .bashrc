@@ -78,7 +78,7 @@ fi
 EDITOR=/usr/bin/vim
 # for some reason darcs likes this to be set to a non-visual editor
 VISUAL=/usr/bin/vim
-#JAVA_HOME=/usr/lib/j2se/1.4
+JAVA_HOME=/usr/lib/jvm/java-6-sun
 
 #GTD=/home/eric/gtd/data
 
@@ -90,9 +90,9 @@ fi
 #    PATH=~/gtd/bin:"${PATH}"
 #fi
 
-PATH=/home/eric/flex/bin:/home/eric/air/bin:${PATH}
+PATH=/home/eric/flex/bin:/home/eric/air/bin:/home/eric/java/apache-maven-2.0.8/bin:${PATH}
 
 NNTPSERVER=newsgroups.bellsouth.net
 
-export EDITOR VISUAL NNTPSERVER
+export EDITOR VISUAL NNTPSERVER JAVA_HOME
 
