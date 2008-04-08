@@ -119,6 +119,16 @@
 ;(add-hook 'text-mode-hook 'rst-text-mode-bindings)
 (add-hook 'text-mode-hook 'my-rst-mode-common-hook)
 
+;;; Hacks for jit-lock-mode
+;(setq rst-mode-lazy nil)
+(setq jit-lock-context-time 5)
+(setq jit-lock-defer-time .5)
+(setq jit-lock-stealth-time 10)
+(setq jit-lock-stealth-verbose nil)
+(setq jit-lock-stealth-nice 0.5)
+(setq jit-lock-stealth-load 10)
+(setq jit-lock-chunk-size 50)
+
 ;;;; unicode character handling
 (set-language-environment "UTF-8")
 (load "~/lisp/unichars")
