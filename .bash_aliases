@@ -18,3 +18,4 @@ ff() { find . -name "$@" -print; }
 lll() { ls -laF "$@" | less; }
 ds() { du -adk "$@" | sort -r -n | less; }
 psg() { ps ax | grep "$@" | grep -v grep; }
+rmbak() { find . -name \*~ -delete }
