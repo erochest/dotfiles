@@ -90,7 +90,7 @@ fi
 #    PATH=~/gtd/bin:"${PATH}"
 #fi
 
-PATH=/home/eric/flex/bin:/home/eric/air/bin:/home/eric/java/apache-maven-2.0.8/bin:${PATH}
+PATH=/home/eric/adobe/flex/bin:/home/eric/adobe/air/bin:/home/eric/java/apache-maven-2.0.8/bin:${PATH}
 
 NNTPSERVER=newsgroups.bellsouth.net
 
