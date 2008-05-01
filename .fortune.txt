@@ -1328,3 +1328,6 @@ If you write applications without tests then you are a bad person,
 incapable of love.
 --Wilson Bilkovich (The Rails Way)
 %
+The skill of writing is to create a context in which other people can think.
+--Edwin Schlossberg
+%
