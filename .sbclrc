@@ -1,7 +1,6 @@
 
 (require 'asdf)
 
-#+win32
 (progn
   ;;; Code i've added to automatically find the package directories and add
   ;;; them to the central registry.
@@ -13,10 +12,14 @@
                :test #'equal)))
   (add-all-packages (merge-pathnames #P"lisp/packages/" (user-homedir-pathname))))
 
+#|
+ | I used this function to put symlinks in ~/lisp/systems/, but that was more
+ | trouble than it was worth.
+ |
 #-win32
 (pushnew (merge-pathnames #P"lisp/systems/" (user-homedir-pathname))
-         asdf:*central-registry*
-         :test #'equal)
+         asdf:*central-registry* :test #'equal)
+|#
 
 
 ;;; things to load to get slime working
