@@ -1334,3 +1334,7 @@ The skill of writing is to create a context in which other people can think.
 Artists ship.
 --Steve Jobs
 %
+Writing novels is not a career. Or an amusement. Or, God knows, a business. It
+is an addition those of us afflicted by it are powerless to resist.
+--James Brady
+%
