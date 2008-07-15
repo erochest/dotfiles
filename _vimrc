@@ -123,11 +123,12 @@ nmap <LocalLeader>dh o<CR><C-r>=strftime("%d %b %Y")<CR><ESC>"zyy"zp:s/./=/g<CR>
 nmap <F5> :NERDTreeToggle<CR>
 
 " smart quotes and long dashes
-imap <LocalLeader>," “
-imap <LocalLeader>." ”
-imap <LocalLeader>.' ’
-imap <LocalLeader>m- —
-imap <LocalLeader>n- –
+"   NB: Removed to force me to use the standard digraphs
+"imap <LocalLeader>," “     " "6
+"imap <LocalLeader>." ”     " "9
+"imap <LocalLeader>.' ’     " '9
+"imap <LocalLeader>m- —     " -M
+"imap <LocalLeader>n- –     " -N
 
 " OTL (vim outliner) settings
 " defaults
