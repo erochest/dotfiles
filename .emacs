@@ -29,6 +29,10 @@
 ;;;; personal packages
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/python-mode-1.0")
+(add-to-list 'load-path "~/.emacs.d/clojure-mode")
+
+;;; clojure mode
+(require 'clojure-mode-config)
 
 ;;;; python mode
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
