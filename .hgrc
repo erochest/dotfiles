@@ -1,0 +1,11 @@
+
+[ui]
+username = Eric Rochester <erochest@gmail.com>
+editor = vim
+
+[extensions]
+hgext.graphlog =
+hgext.convert =
+hgext.mq =
+forest =
+
