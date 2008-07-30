@@ -6,6 +6,7 @@ alias mv='mv -i'
 alias ll='ls -laF'
 alias j='jobs -l'
 
+alias aswww='sudo -u www-data'
 alias mq='hg -R $(hg root)/.hg/patches'
 
 alias pydoc='python2.5 -m pydoc'
