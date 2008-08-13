@@ -1,0 +1,23 @@
+syntax: glob
+*~
+.*
+adobe/*
+bak/*
+BaldrickXP/*
+clojure-contrib/*
+Desktop/*
+Documents/*
+docs/*
+gmail*
+java/*
+logs/*
+My Library/*
+Pictures/*
+Public/*
+public_html/*
+share/*
+Songbird/*
+src/*
+tmp/*
+Videos
+Videos/*
