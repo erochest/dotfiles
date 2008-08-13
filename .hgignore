@@ -4,20 +4,32 @@ syntax: glob
 adobe/*
 bak/*
 BaldrickXP/*
+bin/*
+Camtasia Studio/*
+cgi-bin/*
 clojure-contrib/*
 Desktop/*
 Documents/*
 docs/*
 gmail*
+gtd/*
 java/*
+lisp/*
 logs/*
+multimedia/*
+My Data Sources/*
 My Library/*
+My Videos/*
 Pictures/*
 Public/*
 public_html/*
 share/*
 Songbird/*
+SQL*
 src/*
 tmp/*
 Videos
 Videos/*
+Visual Studio*
+vimfiles/*
+WindowsPowerShell/Transcripts/*
