@@ -92,7 +92,8 @@ fi
 
 PATH=/home/eric/adobe/flex/bin:/home/eric/adobe/air/bin:/home/eric/java/apache-maven-2.0.8/bin:/home/eric/src/google_appengine:${PATH}
 
-NNTPSERVER=news.snet.sbcglobal.net
+#NNTPSERVER=news.snet.sbcglobal.net
+NNTPSERVER=newsgroups.bellsouth.net
 CLASSPATH=$HOME:$HOME/clojure-contrib/src
 
 export EDITOR VISUAL NNTPSERVER CLASSPATH JAVA_HOME
