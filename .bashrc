@@ -95,6 +95,7 @@ PATH=/home/eric/adobe/flex/bin:/home/eric/adobe/air/bin:/home/eric/java/apache-m
 #NNTPSERVER=news.snet.sbcglobal.net
 NNTPSERVER=newsgroups.bellsouth.net
 CLASSPATH=$HOME:$HOME/clojure-contrib/src
+LD_LIBRARY_PATH=$HOME/lib/i386
 
-export EDITOR VISUAL NNTPSERVER CLASSPATH JAVA_HOME
+export EDITOR VISUAL NNTPSERVER CLASSPATH JAVA_HOME LD_LIBRARY_PATH
 
