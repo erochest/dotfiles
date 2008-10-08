@@ -143,6 +143,13 @@ let g:otl_use_thlnk=0
 " Erlang mode settings
 let g:erlangCompiler="emake"
 
+" Haskell settings
+if has("X11")
+	let g:haddock_browser = "firefox"
+elseif has("win32")
+	let g:haddock_browser = "C:/Documents and Settings/erochester/Local Settings/Application Data/Google/Chrome/Application/chrome.exe"
+end
+
 " dbext profiles
 let g:dbext_default_profile_rochester_hm = 'type=SQLSRV:srvname=ROCHESTER-HM\SQLEXPRESS:dbname=Lse:integratedlogin=1'
 let g:dbext_default_profile_wh_pub_01 = 'type=SQLSRV:srvname=WH-PUB-01:dbname=EP_Sample:integratedlogin=1'
