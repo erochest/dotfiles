@@ -1360,3 +1360,6 @@ It seems so human to hold your hand out to people less fortunate than you are
 The supreme accomplishment is to blur the line between work and play.
 --Arnold Toynbee
 %
+If at first the idea is not absurd, then there is no hope for it.
+--Albert Einstein
+%
