@@ -1363,3 +1363,7 @@ The supreme accomplishment is to blur the line between work and play.
 If at first the idea is not absurd, then there is no hope for it.
 --Albert Einstein
 %
+Words ought to be a little wild, for they are the assaults of thoughts on the
+unthinking.
+--John Maynard Keynes
+%
