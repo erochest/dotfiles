@@ -9,6 +9,9 @@ hgext.convert =
 hgext.mq =
 forest =
 
+[inotify]
+autostart = True
+
 [merge-tools]
 kdiff3.args = $base $local $other -o $output
 
