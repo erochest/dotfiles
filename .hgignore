@@ -2,34 +2,47 @@ syntax: glob
 *~
 .*
 adobe/*
+Application Data/*
 bak/*
 BaldrickXP/*
 bin/*
 Camtasia Studio/*
 cgi-bin/*
 clojure-contrib/*
+Cookies/*
 Desktop/*
 Documents/*
 docs/*
+Favorites/*
 gmail*
 gtd/*
 java/*
 lisp/*
+Local Settings/*
 logs/*
 multimedia/*
 My Data Sources/*
+My Documents/*
 My Library/*
+My Recent Documents/*
 My Videos/*
+NetHood/*
 Pictures/*
+PrintHood/*
 Public/*
 public_html/*
+Recent/*
+SendTo/*
 share/*
 Songbird/*
 SQL*
 src/*
+Start Menu/*
+Templates/*
 tmp/*
 Videos
 Videos/*
 Visual Studio*
 vimfiles/*
+WINDOWS/*
 WindowsPowerShell/Transcripts/*
