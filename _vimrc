@@ -31,9 +31,10 @@ if &t_Co > 2 || has("gui_running")
 	endif
 endif
 
-if has("gui_running")
-	set columns=101
-end
+
+"if has("gui_running")
+"	set columns=101
+"end
 
 
 map <C-Up> :bn<CR>
