@@ -147,8 +147,12 @@ let g:erlangCompiler="emake"
 " Haskell settings
 if has("X11")
 	let g:haddock_browser = "firefox"
+	let g:haddock_docdir="/usr/local/share/doc/ghc/libraries"
+	let g:haddock_indexfiledir="~/vimfiles"
 elseif has("win32")
 	let g:haddock_browser = "C:/Documents and Settings/erochester/Local Settings/Application Data/Google/Chrome/Application/chrome.exe"
+	let g:haddock_docdir="C:/ghc/hgc-6.10.1/doc"
+	let g:haddock_indexfiledir="~/vimfiles"
 end
 
 " dbext profiles
