@@ -1,3 +1,4 @@
 # m h  dom mon dow   command
-30 10 * * 1 /home/eric/bin/janitor.py
-00 17 * * * /home/eric/bin/gmailbackup
+#30 10 * * 1 /home/eric/bin/janitor.py
+#00 17 * * * /home/eric/bin/gmailbackup
+15/* * * * * flashbake ~/Document/changeling 5 > /dev/null
