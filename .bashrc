@@ -109,7 +109,7 @@ fi
 #    PATH=~/gtd/bin:"${PATH}"
 #fi
 
-PATH=/usr/bin:/home/eric/adobe/flex/bin:/home/eric/adobe/air/bin:/home/eric/java/apache-maven-2.0.8/bin:/home/eric/src/google_appengine:${PATH}
+PATH=/usr/bin:/home/eric/adobe/flex/bin:/home/eric/adobe/air/bin:/home/eric/java/apache-maven-2.0.8/bin:/home/eric/src/google_appengine:${HOME}/.cabal/bin:${PATH}
 
 #NNTPSERVER=news.snet.sbcglobal.net
 NNTPSERVER=newsgroups.bellsouth.net
