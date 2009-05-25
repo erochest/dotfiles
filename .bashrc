@@ -97,7 +97,7 @@ fi
 EDITOR=/usr/bin/vim
 # for some reason darcs likes this to be set to a non-visual editor
 VISUAL=/usr/bin/vim
-JAVA_HOME=/usr/lib/jvm/java-6-sun
+JAVA_HOME=/usr
 
 #GTD=/home/eric/gtd/data
 
