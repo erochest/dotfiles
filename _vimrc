@@ -164,4 +164,3 @@ let g:dbext_default_profile_lsedb_dev = 'type=SQLITE:SQLITE_bin=sqlite3:dbname=C
 let vimclojure#Nailgunclient="C:\\Users\\Eric\\bin\\ng.exe"
 let clj_want_gorilla=1
 
-
