@@ -160,3 +160,7 @@ let g:dbext_default_profile_rochester_hm = 'type=SQLSRV:srvname=ROCHESTER-HM\SQL
 let g:dbext_default_profile_wh_pub_01 = 'type=SQLSRV:srvname=WH-PUB-01:dbname=EP_Sample:integratedlogin=1'
 let g:dbext_default_profile_lsedb_dev = 'type=SQLITE:SQLITE_bin=sqlite3:dbname=C:\home\eric\src\ase\lsedb\lsedb.db'
 
+" vimclojure
+" let vimclojure#NailgunClient = "C:\\Users\\Eric\\bin\\ng.exe"
+let clj_want_gorilla = 1
+
