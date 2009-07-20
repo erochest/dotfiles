@@ -21,7 +21,7 @@ set wildmenu
 " turn on modelines (this appears to be off on ubuntu)
 set modeline
 
-filetype plugin on
+filetype indent plugin on
 
 "switch syntax highlighting on
 if &t_Co > 2 || has("gui_running")
