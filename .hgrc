@@ -8,6 +8,8 @@ hgext.graphlog =
 hgext.convert =
 hgext.mq =
 forest =
+rebase =
+svn = 
 
 [inotify]
 autostart = True
