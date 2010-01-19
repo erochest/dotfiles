@@ -10,6 +10,8 @@ hgext.mq =
 forest =
 rebase =
 svn = 
+hgext.bookmarks =
+hggit =
 
 [inotify]
 autostart = True
