@@ -108,7 +108,7 @@ JAVA_HOME=/usr
 #GTD=/home/eric/gtd/data
 
 if [ -d ~/bin ] ; then
-    PATH=~/bin:"${PATH}"
+    PATH=~/bin:/usr/local/scala/bin:"${PATH}"
 fi
 
 #if [ -d ~/gtd/bin ] ; then
