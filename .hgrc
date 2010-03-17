@@ -9,7 +9,8 @@ hgext.convert =
 hgext.mq =
 forest =
 rebase =
-svn = 
+# svn = 
+hgsubversion =
 hgext.bookmarks =
 hggit =
 
