@@ -6,7 +6,7 @@ startup_message off
 defscrollback 1024
 
 # remap CTRL-A to CTRL-]
-escape ^]]
+# escape ^]]
 
 # status bar
 hardstatus on
