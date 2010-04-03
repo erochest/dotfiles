@@ -105,6 +105,12 @@ EDITOR=/usr/bin/vim
 VISUAL=/usr/bin/vim
 JAVA_HOME=/usr
 
+# clojure settings
+CLOJURE_EXT=$HOME/lib/java
+CLOJURE_OPTS="-Xms32M -Xms128M -server"
+
+export CLOJURE_EXT CLOJURE_OPTS
+
 #GTD=/home/eric/gtd/data
 
 if [ -d ~/bin ] ; then
