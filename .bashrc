@@ -114,7 +114,7 @@ export CLOJURE_EXT CLOJURE_OPTS
 #GTD=/home/eric/gtd/data
 
 if [ -d ~/bin ] ; then
-    PATH=~/bin:/usr/local/scala/bin:"${PATH}"
+    PATH=~/bin:/usr/local/scala/bin:~/.gem/ruby/1.9.1/bin:"${PATH}"
 fi
 
 #if [ -d ~/gtd/bin ] ; then
