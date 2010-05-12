@@ -15,3 +15,8 @@ psg() { ps ax | grep "$@" | grep -v grep; }
 rmbak() { find . -name \*~ -delete; }
 tds() { td ls "$@" | sort; }
 
+mkcd() {
+	mkdir -p "$*"
+	cd "$*"
+}
+
