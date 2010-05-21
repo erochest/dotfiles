@@ -3,6 +3,9 @@
 username = Eric Rochester <erochest@gmail.com>
 editor = vim
 
+[diff]
+git = yes
+
 [extensions]
 hgext.graphlog =
 hgext.convert =

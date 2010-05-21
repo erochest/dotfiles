@@ -12,3 +12,6 @@ defscrollback 1024
 hardstatus on
 hardstatus alwayslastline "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
 
+screen -t gtd bash
+screen bash
+
