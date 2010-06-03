@@ -105,11 +105,18 @@ EDITOR=/usr/bin/vim
 VISUAL=/usr/bin/vim
 JAVA_HOME=/usr
 
+export EDITOR VISUAL JAVA_HOME
+
 # clojure settings
 CLOJURE_EXT=$HOME/lib/java
 CLOJURE_OPTS="-Xms32M -Xms128M -server"
 
 export CLOJURE_EXT CLOJURE_OPTS
+
+# ack settings
+ACK_PAGER=less -R
+
+export ACK_PAGER
 
 #GTD=/home/eric/gtd/data
 
@@ -120,6 +127,4 @@ fi
 #if [ -d ~/gtd/bin ] ; then
 #    PATH=~/gtd/bin:"${PATH}"
 #fi
-
-export EDITOR VISUAL JAVA_HOME
 
