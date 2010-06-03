@@ -114,7 +114,7 @@ CLOJURE_OPTS="-Xms32M -Xms128M -server"
 export CLOJURE_EXT CLOJURE_OPTS
 
 # ack settings
-ACK_PAGER=less -R
+ACK_PAGER="less -R"
 
 export ACK_PAGER
 
