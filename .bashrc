@@ -101,17 +101,15 @@ fi
 # ERR: my additions
 
 EDITOR=/usr/bin/vim
-# for some reason darcs likes this to be set to a non-visual editor
-VISUAL=/usr/bin/vim
+VISUAL=/usr/bin/gvim
+
+# Java/JVM ecosystem settings.
 JAVA_HOME=/usr
-
-export EDITOR VISUAL JAVA_HOME
-
-# clojure settings
+SCALA_HOME=/usr/local/scala
 CLOJURE_EXT=$HOME/lib/java
 CLOJURE_OPTS="-Xms32M -Xms128M -server"
 
-export CLOJURE_EXT CLOJURE_OPTS
+export EDITOR VISUAL JAVA_HOME SCALA_HOME CLOJURE_EXT CLOJURE_OPTS
 
 # ack settings
 ACK_PAGER="less -R"
