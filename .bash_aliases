@@ -20,3 +20,5 @@ mkcd() {
 	cd "$*"
 }
 
+alias vimq='vim $(hg root)/.hg/patches/series'
+
