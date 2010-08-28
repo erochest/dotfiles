@@ -6,7 +6,7 @@ alias mv='mv -i'
 alias ll='ls -laF'
 alias j='jobs -l'
 
-alias td='/home/eric/bin/todo.sh'
+alias td='~/bin/todo.sh'
 
 ff() { find . -name "$@" -print; }
 lll() { ls -laF "$@" | less; }
