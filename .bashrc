@@ -106,7 +106,7 @@ VISUAL=/usr/bin/gvim
 # Java/JVM ecosystem settings.
 JAVA_HOME=/usr
 SCALA_HOME=/usr/local/scala
-CLOJURE_EXT=$HOME/lib/java
+CLOJURE_EXT=$HOME/.clojure.d/ext
 CLOJURE_OPTS="-Xms32M -Xms128M -server"
 
 export EDITOR VISUAL JAVA_HOME SCALA_HOME CLOJURE_EXT CLOJURE_OPTS
