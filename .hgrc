@@ -14,6 +14,7 @@ rebase =
 hgsubversion =
 hgext.bookmarks =
 hggit =
+purge =
 
 [inotify]
 autostart = True
