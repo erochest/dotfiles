@@ -118,7 +118,3 @@ export ACK_PAGER
 
 #GTD=/home/eric/gtd/data
 
-if [ -d ~/sri/conf/bashrc ] ; then
-	. ~/sri/conf/bashrc
-fi
- 
