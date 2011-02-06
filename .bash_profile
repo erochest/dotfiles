@@ -10,8 +10,13 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
+# set PATH so it includes user's private bin and other goodies.
+PATH=~/bin:/usr/local/scala/bin:~/.gem/ruby/1.9.1/bin:~/.cabal/bin:"${PATH}"
+
 # set PATH so it includes user's private bin if it exists
 if [ -d ~/bin ] ; then
     PATH=~/bin:"${PATH}"
 fi
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 

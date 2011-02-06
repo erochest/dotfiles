@@ -118,11 +118,7 @@ export ACK_PAGER
 
 #GTD=/home/eric/gtd/data
 
-if [ -d ~/bin ] ; then
-    PATH=~/bin:/usr/local/scala/bin:~/.gem/ruby/1.9.1/bin:~/.cabal/bin:"${PATH}"
+if [ -d ~/sri/conf/bashrc ] ; then
+	. ~/sri/conf/bashrc
 fi
-
-#if [ -d ~/gtd/bin ] ; then
-#    PATH=~/gtd/bin:"${PATH}"
-#fi
-
+ 
