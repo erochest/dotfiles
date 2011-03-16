@@ -101,15 +101,16 @@ fi
 # ERR: my additions
 
 EDITOR=/usr/bin/mvim
-VISUAL=/usr/bin/gvim
+VISUAL=/usr/bin/mvim
 
 # Java/JVM ecosystem settings.
-JAVA_HOME=/usr
-SCALA_HOME=/usr/local/scala
+JAVA_HOME=/Library/Java/Home
+CATALINA_HOME=/Library/Tomcat/Home
+SCALA_HOME=/Library/Scala/Home
 CLOJURE_EXT=$HOME/.clojure.d/ext
 CLOJURE_OPTS="-Xms32M -Xms128M -server"
 
-export EDITOR VISUAL JAVA_HOME SCALA_HOME CLOJURE_EXT CLOJURE_OPTS
+export EDITOR VISUAL JAVA_HOME CATALINA_HOME SCALA_HOME CLOJURE_EXT CLOJURE_OPTS
 
 # ack settings
 ACK_PAGER="less -R"

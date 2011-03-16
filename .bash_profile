@@ -11,7 +11,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # set PATH so it includes user's private bin and other goodies.
-PATH=~/bin:/usr/local/scala/bin:~/.gem/ruby/1.9.1/bin:~/.cabal/bin:"${PATH}"
+PATH=$SCALA_HOME/bin:"${PATH}"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d ~/bin ] ; then
