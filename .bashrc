@@ -100,7 +100,7 @@ fi
 
 # ERR: my additions
 
-EDITOR=/usr/bin/vim
+EDITOR=/usr/bin/mvim
 VISUAL=/usr/bin/gvim
 
 # Java/JVM ecosystem settings.
