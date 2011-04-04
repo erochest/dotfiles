@@ -11,7 +11,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # set PATH so it includes user's private bin and other goodies.
-PATH=$SCALA_HOME/bin:"${PATH}"
+PATH=$SCALA_HOME/bin:/Applications/MAMP/Library/bin:"${PATH}"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d ~/bin ] ; then
