@@ -22,3 +22,8 @@ mkcd() {
 
 alias vimq='vim $(hg root)/.hg/patches/series'
 
+mamp() {
+	cd /Applications/MAMP
+}
+
+# vim: set filetype=sh:
