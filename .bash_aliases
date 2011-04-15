@@ -26,4 +26,8 @@ mamp() {
 	cd /Applications/MAMP
 }
 
+tomcat() {
+	cd /Library/Tomcat/Home
+}
+
 # vim: set filetype=sh:
