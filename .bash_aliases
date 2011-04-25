@@ -22,9 +22,17 @@ mkcd() {
 
 alias vimq='vim $(hg root)/.hg/patches/series'
 
-alias mamp='cd /Applications/MAMP'
-alias tomcat='cd /Applications/Tomcat/Home'
-alias solr='cd /Applications/Solr/Home'
+alias mamp='pushd /Applications/MAMP'
+alias tomcat='pushd /Applications/Tomcat/Home'
+alias solr='pushd /Libraries/Solr/Home'
+
+projectls() {
+	cat <<EOF
+mamp   => /Applications/MAMP
+tomcat => /Applications/Tomcat/Home
+solr   => /Libraries/Solr/Home
+EOF
+}
 
 alias sds1="ssh sds-deployer@sds1.itc.virginia.edu"
 alias sds3="ssh sds-deployer@sds3.itc.virginia.edu"
@@ -46,7 +54,7 @@ alias gis2="ssh gis2.lib.virginia.edu"
 
 alias slice="ssh err8n@67.23.31.99 -p 7822"
 
-hostdir() {
+hostls() {
 	cat <<EOF
 sds1   => sds-deployer@sds1.itc.virginia.edu
 sds3   => sds-deployer@sds3.itc.virginia.edu
