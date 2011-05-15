@@ -1,7 +1,7 @@
 
 [ui]
 username = Eric Rochester <err8n@virginia.edu>
-editor = mvim
+editor = /usr/local/bin/mvim
 
 [diff]
 git = yes

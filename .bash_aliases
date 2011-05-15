@@ -6,7 +6,7 @@ alias mv='mv -i'
 alias ll='ls -laF'
 alias j='jobs -l'
 
-alias td='~/bin/todo.sh'
+alias t='~/bin/todo.sh'
 
 ff() { find . -name "$@" -print; }
 lll() { ls -laF "$@" | less; }
@@ -24,7 +24,7 @@ alias vimq='vim $(hg root)/.hg/patches/series'
 
 alias mamp='pushd /Applications/MAMP'
 alias tomcat='pushd /Applications/Tomcat/Home'
-alias solr='pushd /Libraries/Solr/Home'
+alias solr='pushd /Library/Solr/Home'
 
 projectls() {
 	cat <<EOF
@@ -53,6 +53,9 @@ alias gisdev="ssh gisdev.lib.virginia.edu"
 alias gis2="ssh gis2.lib.virginia.edu"
 
 alias slice="ssh err8n@67.23.31.99 -p 7822"
+
+export ANDROID_SDK_HOME=$HOME/src/android-sdk-mac_x86
+alias androidenv="PATH=$PATH:$ANDROID_SDK_HOME/tools:$ANDROID_SDK_HOME/platform-tools"
 
 hostls() {
 	cat <<EOF
