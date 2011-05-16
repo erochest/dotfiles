@@ -13,7 +13,7 @@ lll() { ls -laF "$@" | less; }
 ds() { du -ak "$@" | sort -r -n | less; }
 psg() { ps ax | grep "$@" | grep -v grep; }
 rmbak() { find . -name \*~ -delete; }
-tds() { td ls "$@" | sort; }
+tds() { t ls "$@" | sort; }
 
 mkcd() {
 	mkdir -p "$*"
