@@ -105,5 +105,6 @@ alias hdf='hg diff'
 alias hm='hg commit -m'
 alias hma='hg commit --addremove -m'
 alias hcl='hg clone'
+alias hs='hg status'
 
 # vim: set filetype=sh:
