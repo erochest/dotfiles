@@ -81,4 +81,29 @@ slice  => err8n@67.23.31.99
 EOF
 }
 
+# From http://www.catonmat.net/blog/git-aliases for git and hg.
+alias ga='git add'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
+
+alias ha='hg add'
+alias har='hg addremove'
+alias hpl='hg pull'
+alias hph='hg push'
+alias hl='hg log'
+alias hdf='hg diff'
+alias hm='hg commit -m'
+alias hma='hg commit --addremove -m'
+alias hcl='hg clone'
+
 # vim: set filetype=sh:
