@@ -3,7 +3,7 @@
 # for examples
 
 # If not running interactively, don't do anything
-[ -z "$PS1" ] && return
+if [[ -n "$PS1" ]] ; then
 
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... or force ignoredups and ignorespace
@@ -110,7 +110,7 @@ SCALA_HOME=/Library/Scala/Home
 CLOJURE_EXT=$HOME/.clojure.d/ext
 CLOJURE_OPTS="-Xms32M -Xms128M -server"
 JENAROOT=$HOME/bin/Jena-2.6.4
-TDBROOT=$HOME/bin/TDB-0.8.9
+TDBROOT=$HOME/bin/TDB-0.8.10
 CLICOLOR=1
 
 export EDITOR VISUAL JAVA_HOME CATALINA_HOME SCALA_HOME CLOJURE_EXT CLOJURE_OPTS JENAROOT TDBROOT CLICOLOR
@@ -121,4 +121,6 @@ ACK_PAGER="less -R"
 export ACK_PAGER
 
 #GTD=/home/eric/gtd/data
+
+fi
 
