@@ -22,8 +22,12 @@ mkcd() {
 
 alias vimq='vim $(hg root)/.hg/patches/series'
 
+function priority-work-projects() {
+	t lsp | grep '@slab' | grep '+' | sed -e 's/.*\(+[a-zA-Z0-9]*\).*/\1/' | sort | uniq
+}
+
 alias mamp='pushd /Applications/MAMP'
-alias tomcat='pushd /Applications/Tomcat/Home'
+alias tomcat='pushd /Library/Tomcat/Home'
 alias solr='pushd /Library/Solr/Home'
 
 projectls() {
