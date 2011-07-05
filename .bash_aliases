@@ -23,7 +23,7 @@ mkcd() {
 alias vimq='vim $(hg root)/.hg/patches/series'
 
 function priority-work-projects() {
-	t lsp | grep '@slab' | grep '+' | sed -e 's/.*\(+[a-zA-Z0-9]*\).*/\1/' | sort | uniq
+	t lsp | grep '@slab' | grep '+' | grep -v '^x' | sed -e 's/.*\(+[a-zA-Z0-9]*\).*/\1/' | sort | uniq
 }
 
 alias mamp='pushd /Applications/MAMP'
