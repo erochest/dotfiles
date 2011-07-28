@@ -22,3 +22,6 @@ autostart = True
 [merge-tools]
 kdiff3.args = $base $local $other -o $output
 
+[web]
+cacerts = /etc/hg-dummy-cert.pem
+
