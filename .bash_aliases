@@ -61,6 +61,8 @@ alias slice="ssh err8n@67.23.31.99 -p 7822"
 export ANDROID_SDK_HOME=$HOME/src/android-sdk-mac_x86
 alias androidenv="PATH=$PATH:$ANDROID_SDK_HOME/tools:$ANDROID_SDK_HOME/platform-tools"
 
+export APPENGINE_SDK_HOME=$HOME/Library/Google/AppEngineJava/Home
+
 hostls() {
 	cat <<EOF
 sds1   => sds-deployer@sds1.itc.virginia.edu
