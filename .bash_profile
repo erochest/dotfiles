@@ -10,6 +10,10 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+. `brew --prefix`/etc/bash_completion
+fi
+
 # set PATH so it includes user's private bin and other goodies.
 PATH=/usr/local/bin:$SCALA_HOME/bin:/Applications/MAMP/Library/bin:/Applications/PEAR/bin:$JENAROOT/bin:$TDBROOT/bin:$HOME/Library/Haskell/bin:"${PATH}"
 
