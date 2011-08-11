@@ -15,6 +15,7 @@ hgsubversion =
 hgext.bookmarks =
 hggit =
 purge =
+hgflow =
 
 [inotify]
 autostart = True
