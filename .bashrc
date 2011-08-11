@@ -100,8 +100,8 @@ fi
 
 # ERR: my additions
 
-EDITOR=/usr/bin/mvim
-VISUAL=/usr/bin/mvim
+EDITOR=/usr/bin/vim
+VISUAL=/usr/bin/vim
 
 # Java/JVM ecosystem settings.
 JAVA_HOME=/Library/Java/Home
