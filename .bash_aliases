@@ -22,6 +22,9 @@ mkcd() {
 
 alias vimq='vim $(hg root)/.hg/patches/series'
 
+function priority-context() {
+	t lsp | grep "$1" | grep '+' | grep -v '^x' | sed -e 's/.*\(+[a-zA-Z0-9]*\).*/\1/' | sort | uniq
+}
 function priority-work-projects() {
 	t lsp | grep '@slab' | grep '+' | grep -v '^x' | sed -e 's/.*\(+[a-zA-Z0-9]*\).*/\1/' | sort | uniq
 }
