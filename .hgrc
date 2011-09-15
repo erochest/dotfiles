@@ -16,6 +16,7 @@ hgext.bookmarks =
 hggit =
 purge =
 # hgflow =
+prompt =
 
 [inotify]
 autostart = True
