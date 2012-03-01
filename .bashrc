@@ -77,62 +77,12 @@ if [ -x /usr/bin/dircolors ]; then
     #alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-#alias ll='ls -alF'
-#alias la='ls -A'
-#alias l='ls -CF'
-
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-
-# ERR: my additions
-
-EDITOR=/usr/bin/vim
-VISUAL=/usr/bin/vim
-
-# Java/JVM ecosystem settings.
-JAVA_HOME=/Library/Java/Home
-CATALINA_HOME=/Library/Tomcat/Home
-SCALA_HOME=/Library/Scala/Home
-CLOJURE_EXT=$HOME/.clojure.d/ext
-CLOJURE_OPTS="-Xms32M -Xms128M -server"
-JENAROOT=$HOME/bin/Jena-2.6.4
-TDBROOT=$HOME/bin/TDB-0.8.10
-CLICOLOR=1
-NODE_PATH=/usr/local/lib/node_modules
-PYTHONPATH=$HOME/lib/python
-
-GOROOT=$HOME/src/go
-GOOS=darwin
-GOARCH=amd64
-GOBIN=$GOROOT/bin
-
-TODOTXT_AUTO_ARCHIVE=0
-TODOTXT_PRESERVE_LINE_NUMBERS=1
-TODOTXT_DATE_ON_ADD=1
-
-ACK_PAGER="less -R"
-
-export EDITOR VISUAL JAVA_HOME CATALINA_HOME SCALA_HOME CLOJURE_EXT
-export CLOJURE_OPTS JENAROOT TDBROOT CLICOLOR NODE_PATH PYTHONPATH
-export GOROOT GOOS GOARCH GOBIN
-export TODOTXT_AUTO_ARCHIVE TODOTXT_PRESERVE_LINE_NUMBERS TODOTXT_DATE_ON_ADD
-export ACK_PAGER
-
-#GTD=/home/eric/gtd/data
 
 fi
 
