@@ -1,9 +1,9 @@
 
 [ui]
 username=Eric Rochester <err8n@virginia.edu>
-editor = /usr/local/bin/mvim
+editor = vim
+ignore = /Users/err8n/.hgignore_global
 
-ignore=/Users/err8n/.hgignore_global
 [diff]
 git = yes
 
