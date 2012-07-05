@@ -1,6 +1,7 @@
 *~
 .DS_Store
 .hsenv
+.hsenv*/
 bin/activate
 bin/activate.csh
 bin/activate.fish
