@@ -4,3 +4,6 @@
 [submodule ".git_template"]
 	path = .git_template
 	url = git@github.com:erochest/git_template.git
+[submodule ".bash_it"]
+	path = .bash_it
+	url = git@github.com:erochest/bash-it.git
