@@ -13,3 +13,4 @@ bin/pip-2.7
 bin/python
 include/python2.7
 lib/python2.7
+*.pyc
