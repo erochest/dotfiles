@@ -1,9 +1,12 @@
-[submodule "home/.vim"]
-	path = home/.vim
+[submodule ".vim"]
+	path = .vim
 	url = git@github.com:erochest/vimfiles.git
-[submodule "home/.bash_it/custom"]
-	path = home/.bash_it/custom
+[submodule ".bash_it/custom"]
+	path = .bash_it/custom
 	url = git@github.com:erochest/bash-it-custom.git
-[submodule "home/.git_template"]
-	path = home/.git_template
+[submodule ".git_template"]
+	path = .git_template
 	url = git@github.com:erochest/git_template.git
+[submodule ".bash_it"]
+	path = .bash_it
+	url = https://github.com/revans/bash-it.git
