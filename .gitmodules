@@ -1,3 +1,6 @@
 [submodule "home/.vim"]
 	path = home/.vim
 	url = git@github.com:erochest/vimfiles.git
+[submodule "home/.bash_it/custom"]
+	path = home/.bash_it/custom
+	url = git@github.com:erochest/bash-it-custom.git
