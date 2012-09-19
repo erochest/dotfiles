@@ -1,0 +1,22 @@
+[user]
+	name = Eric Rochester
+	email = err8n@virginia.edu
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = mvim -f
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[merge]
+	tool = vimdiff
+[web]
+	browser = open
+[init]
+	templatedir = ~/.git_template
+[alias]
+	ctags = !.git/hooks/ctags
+[color]
+	ui = true
