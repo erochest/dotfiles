@@ -20,3 +20,5 @@
 	ctags = !.git/hooks/ctags
 [color]
 	ui = true
+[github]
+	user = erochest
