@@ -22,3 +22,5 @@
 	ui = true
 [github]
 	user = erochest
+[push]
+	default = simple
