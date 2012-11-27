@@ -17,7 +17,7 @@ hgext.bookmarks =
 hggit =
 purge =
 # hgflow =
-prompt =
+# prompt =
 
 [inotify]
 autostart = True
@@ -36,7 +36,7 @@ sourcetreemerge.executable=/Applications/SourceTree.app/Contents/Resources/opend
 sourcetreebulkmerge.premerge=False
 sourcetreebulkmerge.binary=True
 [web]
-cacerts = /etc/hg-dummy-cert.pem
+# cacerts = /etc/hg-dummy-cert.pem
 
 [extdiff]
 cmd.sourcetreediff=opendiff
