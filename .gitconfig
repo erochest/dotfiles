@@ -1,6 +1,6 @@
 [user]
 	name = Eric Rochester
-	email = err8n@virginia.edu
+	email = erochest@virginia.edu
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = mvim -f
