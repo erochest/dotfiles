@@ -30,8 +30,10 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-. `brew --prefix`/etc/bash_completion
+if which brew > /dev/null 2>&1 ; then
+    if [ -f `brew --prefix`/etc/bash_completion ]; then
+        . `brew --prefix`/etc/bash_completion
+    fi
 fi
 
 # set PATH so it includes user's private bin if it exists
