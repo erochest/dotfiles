@@ -15,3 +15,5 @@ include/python2.7
 lib/python2.7
 *.pyc
 cabal-dev
+dist/
+Guardfile
