@@ -29,4 +29,4 @@
 [github]
 	user = erochest
 [push]
-	default = simple
+	default = upstream
