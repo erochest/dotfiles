@@ -18,3 +18,5 @@ cabal-dev
 dist/
 Guardfile
 .shelly/*
+*.map
+.sass-cache/
