@@ -20,3 +20,4 @@ Guardfile
 .shelly/*
 *.map
 .sass-cache/
+.env
