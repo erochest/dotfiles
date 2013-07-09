@@ -3,7 +3,7 @@
 	email = erochest@virginia.edu
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = mvim -f
+	editor = vim -f
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
