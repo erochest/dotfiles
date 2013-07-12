@@ -3,4 +3,10 @@
                   [lein-oneoff "0.2.0"]
                   [lein-outdated "1.0.0"]
                   [lein-depgraph "0.1.0"]]
-        :dependencies [[org.clojure/tools.trace "0.7.5"]]}}
+        :source-paths ["dev"]
+        :dependencies [[org.clojure/tools.trace "0.7.5"]
+                       [org.clojure/tools.namespace "0.2.4-SNAPSHOT"]
+                       [org.clojure/java.classpath "0.2.0"]
+                       [criterium "0.4.1"]]
+        :repositories [["tools.namespace" "https://oss.sonatype.org/content/groups/public/"]]
+        :repl-options {:init-ns user}}}
