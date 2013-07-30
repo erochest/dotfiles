@@ -14,8 +14,8 @@ export BASH_IT_THEME='pete'
 export GIT_HOSTING='git@github.com'
 
 # Set my editor and git editor
-export EDITOR="/usr/local/bin/vim"
-export GIT_EDITOR='/usr/local/bin/vim'
+export EDITOR="vim"
+export GIT_EDITOR="vim"
 
 # Set the path nginx
 
