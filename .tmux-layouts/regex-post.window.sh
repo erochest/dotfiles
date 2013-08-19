@@ -16,10 +16,10 @@ send_keys "" 1
 send_keys "" 2
 send_keys "" 3
 
-run_cmd "vim"   0
-run_cmd "ghci"  1
-run_cmd "guard" 2
-run_cmd "ls"    3
+run_cmd "vim"            0
+run_cmd "cabal-dev ghci" 1
+run_cmd "guard"          2
+run_cmd "ls"             3
 
 # Set active pane.
 select_pane 0
