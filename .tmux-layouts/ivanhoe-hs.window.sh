@@ -1,10 +1,10 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/p/cljdata/network-six/"
+window_root "~/p/ivanhoe"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
-new_window "cljdata"
+new_window "ivanhoe-hs"
 
 # Split window into panes.
 split_h 50
@@ -16,9 +16,10 @@ send_keys "" 1
 send_keys "" 2
 send_keys "" 3
 
-run_cmd "vim"          0
-run_cmd "lein repl"    1
-# run_cmd "lein spec -a" 2
+run_cmd "vim"               0
+run_cmd "yesod --dev devel" 1
+run_cmd "ghci"              2
+run_cmd "ls"                3
 
 # Set active pane.
 select_pane 0
