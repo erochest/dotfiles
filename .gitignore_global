@@ -16,6 +16,8 @@ lib/python2.7
 *.pyc
 cabal-dev
 dist/
+.cabal-sandbox/
+cabal.sandbox.config
 Guardfile
 .shelly/*
 *.map
