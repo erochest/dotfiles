@@ -1,7 +1,8 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
 # window_root "~/p/bagins/src/github.com/APTrust/bagins/"
-window_root "~/p/bagins/"
+# window_root "~/p/bagins/"
+window_root "~/p/bagins/bagger/"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
