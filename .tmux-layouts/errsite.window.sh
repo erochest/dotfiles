@@ -18,7 +18,6 @@ send_keys "" 2
 send_keys "" 3
 
 run_cmd "vim" 0
-run_cmd "guard" 1
-run_cmd "./dist/build/site/site serve" 2
+run_cmd "./dist/build/site/site watch" 1
 
 select_pane 0
