@@ -9,12 +9,12 @@ new_window "cljdata"
 # Split window into panes.
 split_h 50
 split_v 66
-split_v 50
+# split_v 50
 
 send_keys "" 0
 send_keys "" 1
 send_keys "" 2
-send_keys "" 3
+# send_keys "" 3
 
 run_cmd "vim"          0
 run_cmd "lein repl"    1
