@@ -1,10 +1,10 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/p/x/x-core"
+window_root "~/p/x/x-cli"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
-new_window "x-core"
+new_window "x-cli"
 
 # Split window into panes.
 split_h 50
