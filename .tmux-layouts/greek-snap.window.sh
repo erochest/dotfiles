@@ -14,9 +14,9 @@ send_keys "" 0
 send_keys "" 1
 send_keys "" 2
 
-run_cmd "vim"                  0
-run_cmd "cabal run -- -p 4000" 1
-run_cmd "ls"                   2
+run_cmd "vim"         0
+run_cmd "yesod devel" 1
+run_cmd "ls"          2
 
 # Set active pane.
 select_pane 0
