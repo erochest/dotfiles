@@ -9,16 +9,14 @@ new_window "errsite"
 # Split window into panes.
 split_h 50
 split_v 66
-split_v 50
 
 # Not sure why, but there's a form feed () on each prompt.
 send_keys "" 0
 send_keys "" 1
 send_keys "" 2
-send_keys "" 3
 
-run_cmd "vim" 0
-run_cmd "./dist/build/site/site watch" 1
-run_cmd "warp -d _site"
+run_cmd "vim"                                         0
+run_cmd "./.cabal-sandbox/bin/site watch --port=9090" 1
+run_cmd "open http://localhost:9090/"                 2
 
 select_pane 0
