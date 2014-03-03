@@ -6,7 +6,7 @@
                   [lein-typed "0.3.1"]]
         :source-paths ["dev"]
         :dependencies [[org.clojure/tools.trace "0.7.5"]
-                       [org.clojure/tools.namespace "0.2.4-SNAPSHOT"]
+                       [org.clojure/tools.namespace "0.2.4"]
                        [org.clojure/java.classpath "0.2.0"]
                        [criterium "0.4.1"]
                        [org.clojure/core.typed "0.2.13"]]
