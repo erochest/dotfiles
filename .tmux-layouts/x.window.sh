@@ -1,6 +1,6 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/p/x/x-server"
+window_root "~/p/x/x-core"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
@@ -16,10 +16,10 @@ send_keys "" 1
 send_keys "" 2
 send_keys "" 3
 
-run_cmd "vim"         0
-run_cmd "yesod devel" 1
-run_cmd "cabal repl"  2
-run_cmd "ls"          3
+run_cmd "vim"        0
+run_cmd "guard"      1
+run_cmd "cabal repl" 2
+run_cmd "ls"         3
 
 # Set active pane.
 select_pane 0

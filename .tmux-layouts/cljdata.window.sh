@@ -1,6 +1,6 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/p/cljdata/tm-sotu/"
+window_root "~/p/cljdata/"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
@@ -16,8 +16,8 @@ send_keys "" 1
 send_keys "" 2
 # send_keys "" 3
 
-run_cmd "vim"          0
-run_cmd "lein repl"    1
+# run_cmd "vim"          0
+# run_cmd "lein repl"    1
 # run_cmd "lein spec -a" 2
 
 # Set active pane.
