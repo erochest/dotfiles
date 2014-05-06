@@ -9,14 +9,13 @@ merge = vimdiff
 git = yes
 
 [extensions]
-hgext.graphlog =
-hgext.convert =
+# hgext.graphlog =
+# hgext.convert =
 hgext.mq =
-rebase =
+# rebase =
 hgsubversion =
-hgext.bookmarks =
 hggit =
-purge =
+# purge =
 # hgflow =
 # prompt =
 
