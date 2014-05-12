@@ -1,6 +1,6 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/p/cljdata/"
+window_root "~/p/cljdata/network-six/"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
