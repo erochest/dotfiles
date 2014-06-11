@@ -10,3 +10,6 @@
 [submodule ".tmuxifier"]
 	path = .tmuxifier
 	url = https://github.com/jimeh/tmuxifier.git
+[submodule "skel"]
+	path = skel
+	url = git@github.com:erochest/skel.git
