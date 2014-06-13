@@ -32,3 +32,7 @@ unset MAILCHECK
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
+
+if which rvm > /dev/null ; then
+	PATH=$HOME/.rvm/gems/$(rvm current)/bin:$HOME/.rvm/bin:$PATH
+fi
