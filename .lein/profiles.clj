@@ -6,9 +6,9 @@
                   [lein-typed "0.3.1"]]
         :source-paths ["dev"]
         :dependencies [[org.clojure/tools.trace "0.7.8"]
-                       [org.clojure/tools.namespace "0.2.4"]
+                       [org.clojure/tools.namespace "0.2.5"]
                        [org.clojure/java.classpath "0.2.2"]
                        [criterium "0.4.3"]
-                       [org.clojure/core.typed "0.2.56"]]
+                       [org.clojure/core.typed "0.2.58"]]
         ; :repositories [["tools.namespace" "https://oss.sonatype.org/content/groups/public/"]]
         :repl-options {:init-ns user}}}
