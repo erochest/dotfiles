@@ -17,7 +17,7 @@ send_keys "" 2
 # send_keys "" 3
 
 # run_cmd "vim"          0
-# run_cmd "lein repl"    1
+run_cmd "cd ~/Dropbox/packt/0297OS/ed02.draft01" 1
 # run_cmd "lein spec -a" 2
 
 # Set active pane.
