@@ -9,6 +9,6 @@
                        [org.clojure/tools.namespace "0.2.5"]
                        [org.clojure/java.classpath "0.2.2"]
                        [criterium "0.4.3"]
-                       [org.clojure/core.typed "0.2.66"]]
+                       [org.clojure/core.typed "0.2.67"]]
         ; :repositories [["tools.namespace" "https://oss.sonatype.org/content/groups/public/"]]
         :repl-options {:init-ns user}}}
