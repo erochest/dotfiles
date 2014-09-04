@@ -13,3 +13,6 @@
 [submodule "skel"]
 	path = skel
 	url = git@github.com:erochest/skel.git
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
