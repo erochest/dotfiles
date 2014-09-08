@@ -1,4 +1,4 @@
-{:user {:plugins [[lein-localrepo "0.4.1"]
+{:user {:plugins [[lein-localrepo "0.5.3"]
                   [lein-pprint "1.1.1"]
                   [lein-oneoff "0.2.0"]
                   [lein-outdated "1.0.0"]
