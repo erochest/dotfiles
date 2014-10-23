@@ -15,7 +15,7 @@ send_keys "" 0
 send_keys "" 1
 send_keys "" 2
 
-run_cmd "vim"                                 0
+run_cmd "svim"                                 0
 run_cmd "cabal run site watch -- --port=9090" 1
 run_cmd "open http://localhost:9090/"         2
 

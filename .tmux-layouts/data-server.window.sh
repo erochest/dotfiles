@@ -14,7 +14,7 @@ send_keys "" 0
 send_keys "" 1
 send_keys "" 2
 
-run_cmd "vim"                                        0
+run_cmd "svim"                                        0
 run_cmd "./dist/build/data-serve/data-serve -p 7000" 1
 run_cmd "ls"                                         2
 
