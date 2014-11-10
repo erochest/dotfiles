@@ -24,3 +24,4 @@ Guardfile
 .sass-cache/
 .env
 .project.vim
+Session.vim
