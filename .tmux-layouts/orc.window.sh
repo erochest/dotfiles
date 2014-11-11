@@ -1,6 +1,6 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/p/orcbot"
+window_root "~/p/orc"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
