@@ -14,9 +14,9 @@ send_keys "" 0
 send_keys "" 1
 send_keys "" 2
 
-run_cmd "source bin/activate && svim"    0
-run_cmd "source bin/activate && ls"      1
-run_cmd "source bin/activate && ipython" 2
+run_cmd "source bin/activate && svim"     0
+run_cmd "source bin/activate && ls"       1
+run_cmd "source bin/activate && ipython3" 2
 
 # Set active pane.
 select_pane 0
