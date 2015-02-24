@@ -18,6 +18,7 @@ hggit =
 # purge =
 # hgflow =
 # prompt =
+color =
 
 [merge-tools]
 kdiff3.args = $base $local $other -o $output
