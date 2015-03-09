@@ -1,10 +1,10 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/p/betacode"
+window_root "s/growth"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
-new_window "betacode"
+new_window "growth"
 
 # Split window into panes.
 split_h 50
