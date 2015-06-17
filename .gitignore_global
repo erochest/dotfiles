@@ -25,3 +25,5 @@ Guardfile
 .env
 .project.vim
 Session.vim
+tags
+codex.tags
