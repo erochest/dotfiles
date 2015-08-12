@@ -17,6 +17,8 @@ import Data.Monoid
 :set -XOverloadedStrings
 
 :set -fno-warn-unused-imports
+:set +c
+
 :def hlint const . return $ ":! hlint \"src\""
 :def hoogle \s -> return $ ":! hoogle --count=15 \"" ++ s ++ "\""
 :def pl \s -> return $ ":! pointfree \"" ++ s ++ "\""
