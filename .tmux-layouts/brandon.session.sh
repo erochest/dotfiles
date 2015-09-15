@@ -1,4 +1,4 @@
-session_root "~/p/brandon-nltk"
+session_root "~/p/woolf"
 
 if initialize_session "brandon"; then
 
