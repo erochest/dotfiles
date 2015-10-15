@@ -14,9 +14,9 @@ send_keys "" 0
 send_keys "" 1
 send_keys "" 2
 
-run_cmd "svim"         0
-run_cmd "jekyll serve" 1
-run_cmd "ls"           2
+run_cmd "jekyll build --watch" 0
+run_cmd "warp --docroot _site" 1
+run_cmd "ls"                   2
 
 # Set active pane.
 select_pane 0
