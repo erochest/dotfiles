@@ -82,3 +82,6 @@ fi
 
 fi
 
+
+# added by travis gem
+[ -f /Users/err8n/.travis/travis.sh ] && source /Users/err8n/.travis/travis.sh
